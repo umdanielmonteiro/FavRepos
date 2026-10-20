@@ -1,0 +1,23 @@
+name: Correct a review
+description: Report inaccurate metadata or an outdated evaluation
+title: "[Correction] "
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Resource ID or URL
+    validations:
+      required: true
+  - type: textarea
+    id: discrepancy
+    attributes:
+      label: What is incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and suggested correction
+      description: Link official documentation, the relevant commit or a reproducible test.
+    validations:
+      required: true

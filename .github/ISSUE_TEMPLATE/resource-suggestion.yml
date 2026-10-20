@@ -1,0 +1,38 @@
+name: Suggest a resource
+description: Propose a new project, model, skill or tool for the catalog
+title: "[Resource] "
+labels: ["resource-suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Canonical resource URL
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Source platform
+      options: [GitHub, Hugging Face, GitLab, Official website, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: What problem does it solve?
+      description: Include relevant activities and industries, without organization-specific context.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources and limitations
+      description: First-party documentation links, prerequisites, known risks or unknowns
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I understand inclusion does not imply endorsement or security verification.
+          required: true

@@ -1,0 +1,17 @@
+{
+  "name": "favrepos-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Validation and export scripts for the FavRepos curated technology catalog",
+  "scripts": {
+    "catalog:sync": "node scripts/catalog.mjs sync",
+    "catalog:index": "node scripts/catalog-index.mjs check",
+    "catalog:index:sync": "node scripts/catalog-index.mjs sync",
+    "catalog:index:check": "node scripts/catalog-index.mjs check",
+    "check": "node scripts/catalog.mjs check",
+    "test": "node --test tests/catalog.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

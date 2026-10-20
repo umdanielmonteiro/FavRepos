@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FavRepos catalog",
+  "$comment": "Reference schema only: no JSON Schema engine runs in the current check. scripts/catalog.mjs is the executed validator; it adds uniqueness, URL normalization, exact date validity, CSV synchronization, and hands_on_tested/verification_level consistency checks. See docs/METHODOLOGY.md for limits.",
+  "type": "object",
+  "required": ["schema_version", "resources"],
+  "properties": {
+    "schema_version": { "type": "string", "minLength": 1 },
+    "updated_at": { "type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "url", "platform", "resource_type", "category", "verification_level", "activities", "industries", "hands_on_tested"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^fav-\\d{3,}$" },
+          "name": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https://", "minLength": 1 },
+          "platform": { "type": "string", "minLength": 1 },
+          "publisher": { "type": ["string", "null"] },
+          "resource_type": { "type": "string", "minLength": 1 },
+          "category": { "type": "string", "minLength": 1 },
+          "license": { "type": ["string", "null"] },
+          "verification_level": { "type": "string", "minLength": 1 },
+          "hands_on_tested": { "type": "boolean" },
+          "reviewed_at": { "type": ["string", "null"], "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "activities": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+          "industries": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+          "source_urls": { "type": "array", "items": { "type": "string", "format": "uri", "pattern": "^https://", "minLength": 1 } },
+          "codex_compatibility": { "type": ["string", "null"] },
+          "editorial_verdict": { "type": ["string", "null"] },
+          "personal_impressions": { "type": ["string", "null"] },
+          "execution_environment": { "type": ["string", "null"] },
+          "upstream_description": { "type": ["string", "null"] },
+          "catalog_description": { "type": ["string", "null"] },
+          "description_status": { "type": ["string", "null"] },
+          "industry_tag_status": { "type": ["string", "null"] },
+          "technical_notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

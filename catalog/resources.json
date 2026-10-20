@@ -1,0 +1,2035 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-10-19",
+  "resources": [
+    {
+      "id": "fav-001",
+      "name": "Whisper (OpenAI)",
+      "url": "https://github.com/openai/whisper",
+      "platform": "GitHub",
+      "publisher": "openai",
+      "category": "Audio & speech",
+      "resource_type": "Python library / model weights",
+      "activities": [
+        "transcription",
+        "voice technology"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Accessibility"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-001.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Local Python 3.8+ with PyTorch and ffmpeg CLI; CPU or supported PyTorch accelerator; memory needs vary by model",
+      "codex_compatibility": null,
+      "license": "MIT (repository code and model weights, per upstream README and LICENSE)",
+      "verification_level": "Source inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/openai/whisper",
+        "https://github.com/openai/whisper/blob/v20250625/README.md",
+        "https://github.com/openai/whisper/blob/v20250625/pyproject.toml",
+        "https://github.com/openai/whisper/blob/v20250625/LICENSE",
+        "https://github.com/openai/whisper/blob/v20250625/model-card.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A Python speech-recognition project that provides model weights, a command-line tool, and a library."
+    },
+    {
+      "id": "fav-002",
+      "name": "ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "platform": "GitHub",
+      "publisher": "affaan-m",
+      "category": "AI agents & skills",
+      "resource_type": "Agent harness / skill collection",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-002.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js 18+ for the universal CLI; supported core installer paths documented for Windows, macOS and Linux, with optional Bash/Python-dependent features and native-Windows limitations",
+      "codex_compatibility": "Native Codex plugin manifest supplies skills, one default MCP configuration and a SessionStart hook requiring explicit trust; Claude agent definitions and hook profiles are not fully portable; not hands-on tested",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/affaan-m/ECC/commit/76aaa77df6adc5b889e689007bf99b9a4f74af34",
+        "https://github.com/affaan-m/ECC/blob/76aaa77df6adc5b889e689007bf99b9a4f74af34/README.md",
+        "https://github.com/affaan-m/ECC/blob/76aaa77df6adc5b889e689007bf99b9a4f74af34/.codex-plugin/plugin.json",
+        "https://github.com/affaan-m/ECC/blob/76aaa77df6adc5b889e689007bf99b9a4f74af34/hooks/codex-hooks.json",
+        "https://github.com/affaan-m/ECC/blob/76aaa77df6adc5b889e689007bf99b9a4f74af34/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of coding-agent workflows, including reusable prompts, skills, hooks, and configuration tools."
+    },
+    {
+      "id": "fav-003",
+      "name": "YT-DLP",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "platform": "GitHub",
+      "publisher": "yt-dlp",
+      "category": "Video & media",
+      "resource_type": "CLI downloader",
+      "activities": [
+        "media acquisition"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-003.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Python 3.10+ (CPython) or 3.11+ (PyPy) per project documentation; standalone binaries are published for Windows, macOS and Linux variants; FFmpeg/ffprobe and a JavaScript runtime are optional/recommended for specified features",
+      "codex_compatibility": "No native Codex skill or MCP integration documented in inspected sources; possible terminal invocation as a CLI or Python package depends on a separately available installation, permissions and network access; not hands-on tested",
+      "license": "Unlicense for repository and PyPI source/wheel; bundled release variants include differently licensed components (including GPL-3.0+, MIT and ISC); verify the selected distribution's notices",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/yt-dlp/yt-dlp/commit/897341241f2bfb2439fe0367f4c7c9ccd29a3828",
+        "https://github.com/yt-dlp/yt-dlp/blob/897341241f2bfb2439fe0367f4c7c9ccd29a3828/README.md",
+        "https://github.com/yt-dlp/yt-dlp/blob/897341241f2bfb2439fe0367f4c7c9ccd29a3828/pyproject.toml",
+        "https://github.com/yt-dlp/yt-dlp/blob/897341241f2bfb2439fe0367f4c7c9ccd29a3828/yt_dlp/cookies.py",
+        "https://github.com/yt-dlp/yt-dlp/blob/897341241f2bfb2439fe0367f4c7c9ccd29a3828/yt_dlp/postprocessor/ffmpeg.py",
+        "https://github.com/yt-dlp/yt-dlp/blob/897341241f2bfb2439fe0367f4c7c9ccd29a3828/yt_dlp/update.py",
+        "https://github.com/yt-dlp/yt-dlp/blob/897341241f2bfb2439fe0367f4c7c9ccd29a3828/LICENSE",
+        "https://www.youtube.com/t/terms?gl=GB",
+        "https://support.google.com/youtube/answer/56100?hl=en"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A Python command-line tool and library for extracting media and metadata from supported websites."
+    },
+    {
+      "id": "fav-004",
+      "name": "REA",
+      "url": "https://github.com/morluto/rea",
+      "platform": "GitHub",
+      "publisher": "morluto",
+      "category": "Reverse engineering",
+      "resource_type": "CLI / MCP reverse-engineering toolkit",
+      "activities": [
+        "software analysis",
+        "interoperability"
+      ],
+      "industries": [
+        "Software development",
+        "Cybersecurity"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-004.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js 22.19+ / 24.11+ / 26+ and npm; target-specific providers and tools may be required (for example Ghidra, Hopper, IDA, JADX/JDK, ADB, or browser tooling)",
+      "codex_compatibility": "Codex MCP setup documented via rea-agents; optional setup modifies agent configuration",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Source inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/morluto/rea",
+        "https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0",
+        "https://github.com/morluto/rea/blob/main/docs/installation.md",
+        "https://github.com/morluto/rea/blob/main/docs/mcp-contracts.md",
+        "https://github.com/morluto/rea/blob/main/THIRD_PARTY_NOTICES.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A command-line and MCP toolkit for analyzing software artifacts and runtime behavior."
+    },
+    {
+      "id": "fav-005",
+      "name": "Open Generative AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "platform": "GitHub",
+      "publisher": "Anil-matcha",
+      "category": "Generative media",
+      "resource_type": "Self-hosted application",
+      "activities": [
+        "image and video generation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "catalog_description": "A web and desktop application for image and video creation, with documented provider-backed and local-inference options.",
+      "description_status": "FavRepos-authored summary. The original documentary review was conducted on 2026-10-18; pinned README files were independently recovered later on 2026-10-19. The v2.0.0 README at commit 0bc974433d660639bc0c888bb9423c9316c12f0a (blob 55d13335ac0cc7ae640a6a271f49abede5501dbc) has a 200+ models heading; the later README at commit f013270957f75e439eaf97eb2a93decb32a4543e (blob a60016fa90a1a78a822a2a01c2e07b02d47fef53) has a 400+ models heading. The previously cataloged 600+ figure was not substantiated. Counts, availability, and operation were not independently tested. No functional or security testing was performed.",
+      "execution_environment": "Desktop: macOS Apple Silicon/Intel, Windows x64, or Linux x64 builds; source development requires Node.js 18+ and npm. Provider-backed generation requires Muapi credentials/network access; optional local inference has separate model, storage, Python/PyTorch, and GPU requirements",
+      "codex_compatibility": null,
+      "license": "MIT is declared in LICENSE and package metadata at later commit f013270957f75e439eaf97eb2a93decb32a4543e; the reviewed v2.0.0 tree lacked a root LICENSE and package license field. This does not establish rights for models, APIs, media, services, dependencies, or outputs.",
+      "verification_level": "Source inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/Anil-matcha/Open-Generative-AI",
+        "https://github.com/Anil-matcha/Open-Generative-AI/releases/tag/v2.0.0",
+        "https://github.com/Anil-matcha/Open-Generative-AI/blob/main/README.md",
+        "https://github.com/Anil-matcha/Open-Generative-AI/blob/main/package.json",
+        "https://github.com/Anil-matcha/Open-Generative-AI/blob/main/LICENSE",
+        "https://github.com/Anil-matcha/Open-Generative-AI/commit/f013270957f75e439eaf97eb2a93decb32a4543e"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit"
+    },
+    {
+      "id": "fav-006",
+      "name": "Ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "platform": "GitHub",
+      "publisher": "DietrichGebert",
+      "category": "AI agents & skills",
+      "resource_type": "Agent plugin / instructions",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-006.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent-host plugin/instruction files; Codex installation uses the Codex CLI plugin commands; other supported hosts have separate adapters",
+      "codex_compatibility": "Codex plugin installation documented; manifest declares lifecycle hooks requiring explicit trust/activation",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Source inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/DietrichGebert/ponytail",
+        "https://github.com/DietrichGebert/ponytail/releases/tag/v4.13.0",
+        "https://github.com/DietrichGebert/ponytail/blob/main/plugin.yaml",
+        "https://github.com/DietrichGebert/ponytail/blob/main/AGENTS.md",
+        "https://github.com/DietrichGebert/ponytail/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An agent-instruction and plugin project with prompts, rules, commands, and host adapters."
+    },
+    {
+      "id": "fav-007",
+      "name": "Agency Agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "platform": "GitHub",
+      "publisher": "msitarzewski",
+      "category": "AI agents & skills",
+      "resource_type": "Agent instruction collection / converter",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-007.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Selected instruction files can be read/copied directly; documented conversion and install workflows use shell scripts and write generated files to the target agent configuration, including ~/.codex/agents/",
+      "codex_compatibility": "Codex custom-agent TOML conversion and installation documented; not an MCP server or plugin",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Source inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/msitarzewski/agency-agents",
+        "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
+        "https://github.com/msitarzewski/agency-agents/blob/main/integrations/codex/README.md",
+        "https://github.com/msitarzewski/agency-agents/blob/main/CONTRIBUTING.md",
+        "https://github.com/msitarzewski/agency-agents/blob/main/LICENSE",
+        "https://github.com/msitarzewski/agency-agents/commit/652b2692f8d8ec2b1f1a38e559073e287dfdc469"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of role-specific agent instructions with conversion and installation scripts."
+    },
+    {
+      "id": "fav-008",
+      "name": "ReelMimic",
+      "url": "https://github.com/edenfunf/reelmimic",
+      "platform": "GitHub",
+      "publisher": "edenfunf",
+      "category": "Video production",
+      "resource_type": "Local video-production application / agent workflow",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-008.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js 22.18+, Python 3.10+, FFmpeg, Chrome, and a logged-in Claude Code or Codex CLI; optional API keys and significant local storage/model usage may apply",
+      "codex_compatibility": "Codex CLI workflow documented through AGENTS.md integration; not a Codex MCP server or plugin",
+      "license": "MIT (project code; bundled third-party skills/assets retain separate terms)",
+      "verification_level": "Source inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/edenfunf/reelmimic",
+        "https://github.com/edenfunf/reelmimic/blob/main/README.md",
+        "https://github.com/edenfunf/reelmimic/blob/main/install.sh",
+        "https://github.com/edenfunf/reelmimic/blob/main/requirements.txt",
+        "https://github.com/edenfunf/reelmimic/blob/main/secrets.example.json",
+        "https://github.com/edenfunf/reelmimic/blob/main/THIRD_PARTY_NOTICES.md",
+        "https://github.com/edenfunf/reelmimic/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A local web application and agent workflow for planning and producing animated videos from reference material."
+    },
+    {
+      "id": "fav-009",
+      "name": "Whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "platform": "GitHub",
+      "publisher": "ggml-org",
+      "category": "Audio & speech",
+      "resource_type": "Local transcription engine",
+      "activities": [
+        "transcription",
+        "voice technology"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Accessibility"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-009.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Local C/C++ CLI and library; build with CMake and use converted ggml Whisper model files",
+      "codex_compatibility": null,
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/ggml-org/whisper.cpp/tree/v1.9.4",
+        "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.4"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "v1.9.4 documents CPU inference, quantized ggml models, platform-specific CPU/GPU/NPU acceleration, CLI and C API; no hands-on performance or compatibility testing was performed.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A C and C++ implementation of inference for OpenAI Whisper speech-recognition models, with command-line and library interfaces."
+    },
+    {
+      "id": "fav-010",
+      "name": "VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "platform": "GitHub",
+      "publisher": "debpalash",
+      "category": "Audio & speech",
+      "resource_type": "Local voice application",
+      "activities": [
+        "transcription",
+        "voice technology"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Accessibility"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-010.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Electron desktop application with local Python audio backend; optional Docker/headless backend and remote workers",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 (application; engine/model/voice assets have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/debpalash/VoiceStudio/tree/v0.5.6",
+        "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.6"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "v0.5.6 release commit 3915a62 documents Electron on macOS, Windows and Linux; models and voice assets retain distinct terms and may require local compute or optional remote workers.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An Electron desktop application with a local audio backend and documented speech-generation and transcription workflows."
+    },
+    {
+      "id": "fav-011",
+      "name": "MuseTalk",
+      "url": "https://github.com/TMElyralab/MuseTalk",
+      "platform": "GitHub",
+      "publisher": "TMElyralab",
+      "category": "Avatars & lip sync",
+      "resource_type": "Model / framework",
+      "activities": [
+        "avatar production",
+        "dubbing"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-011.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Local Python inference/training pipeline using PyTorch, CUDA, FFmpeg, MMLab components and downloaded model weights",
+      "codex_compatibility": null,
+      "license": "MIT (code; model weights, dependencies and test data have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/TMElyralab/MuseTalk",
+        "https://github.com/TMElyralab/MuseTalk/blob/main/README.md",
+        "https://github.com/TMElyralab/MuseTalk/blob/main/requirements.txt",
+        "https://github.com/TMElyralab/MuseTalk/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "MuseTalk 1.5 author documentation describes 256x256 face-region latent inpainting, Python 3.10, CUDA 11.7/11.8, PyTorch 2.0.1 and MMLab dependencies; reported 30fps+ is an author claim on Tesla V100 and was not independently tested.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A model and codebase for audio-driven lip synchronization and video dubbing."
+    },
+    {
+      "id": "fav-012",
+      "name": "Remotion Docs",
+      "url": "https://www.remotion.dev/docs/",
+      "platform": "Official website",
+      "publisher": "Remotion AG",
+      "category": "Video production",
+      "resource_type": "Framework documentation",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-012.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Official documentation for the Remotion React/Node.js video framework; runtime requirements depend on the selected framework version and rendering path",
+      "codex_compatibility": null,
+      "license": "Proprietary Remotion License; free license eligibility and company licensing terms apply",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://www.remotion.dev/docs/",
+        "https://www.remotion.dev/docs/renderer",
+        "https://www.remotion.dev/docs/license/faq"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Documentation observed 2026-10-18 with Remotion v4.0.536 as the latest published release; React-based programmatic video framework with Node.js rendering APIs. Framework services such as Lambda and licensing are separate offerings.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "Official documentation for Remotion, a React-based framework for programmatic video creation."
+    },
+    {
+      "id": "fav-013",
+      "name": "Remotion AI Skills",
+      "url": "https://www.remotion.dev/docs/ai/skills",
+      "platform": "Official website",
+      "publisher": "www.remotion.dev",
+      "category": "Video production",
+      "resource_type": "Agent skills documentation",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-013.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent instruction files distributed from remotion-dev/skills and installed using the Skills CLI or Remotion project scaffolder",
+      "codex_compatibility": "Official documentation lists Codex among compatible coding agents; this is documented workflow compatibility, not a Codex-native runtime or MCP server",
+      "license": null,
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://www.remotion.dev/docs/ai/skills",
+        "https://github.com/remotion-dev/skills",
+        "https://www.remotion.dev/docs/ai/plugins"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Documentation observed 2026-10-18. Skills are installed with `npx skills add remotion-dev/skills` or offered by `bun create video`; Remotion separately documents a Codex plugin. Skill contents and framework/services are distinct.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "Documentation for agent skills that provide workflows for Remotion projects."
+    },
+    {
+      "id": "fav-014",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "platform": "GitHub",
+      "publisher": "Comfy-Org",
+      "category": "Generative media",
+      "resource_type": "Application / backend",
+      "activities": [
+        "image and video generation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "catalog_description": "A visual application for creating and running node-based media-generation workflows.",
+      "description_status": "FavRepos-authored summary based on the ComfyUI README at commit 8f04fd6ecf4a548937971e840af2a985529fab76 (blob a6b57ecfe996f8adaf42436afbe753f6f8a5f62c), recovered by independent audit on 2026-10-19. The initial review on 2026-10-18 could not retrieve the candidate README or related files; later recovery does not revise its technical or licensing conclusions. No functional test was performed.",
+      "execution_environment": "Previously viewed mutable README describes Python/PyTorch and platform-specific accelerators; candidate README not verified at 8f04fd6ecf4a548937971e840af2a985529fab76.",
+      "codex_compatibility": null,
+      "license": "GPL-3.0 identified in LICENSE at candidate commit 8f04fd6ecf4a548937971e840af2a985529fab76; model weights, custom nodes, templates, and services have separate terms.",
+      "verification_level": "Documentation inspected; candidate tree unverified; not hands-on tested",
+      "source_urls": [
+        "https://github.com/Comfy-Org/ComfyUI",
+        "https://github.com/Comfy-Org/ComfyUI/tree/8f04fd6ecf4a548937971e840af2a985529fab76",
+        "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
+        "https://github.com/Comfy-Org/ComfyUI/blob/master/SECURITY.md",
+        "https://github.com/Comfy-Org/ComfyUI/blob/master/openapi.yaml"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit"
+    },
+    {
+      "id": "fav-015",
+      "name": "Fish Speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "platform": "GitHub",
+      "publisher": "fishaudio",
+      "category": "Audio & speech",
+      "resource_type": "Speech synthesis toolkit",
+      "activities": [
+        "transcription",
+        "voice technology"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Accessibility"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-015.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Candidate pyproject metadata declares Python >=3.10 and Torch/TorchAudio 2.8.0; current external install docs consulted 2026-10-18 prescribe Python 3.12 and document NVIDIA GPU/CPU paths, limited Intel XPU support, and model-specific requirements: Drama 3 >=48 GB NVIDIA; S2-Pro >=24 GB NVIDIA or CPU.",
+      "codex_compatibility": null,
+      "license": "Repository and model terms are component-specific. The reviewed Fish Audio Community License v1.0 applies only to designated materials; S2-Pro weights are separately identified under the Fish Audio Research License, and the current Drama 3 model-card license labels conflict. Verify the exact code and checkpoint terms.",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/fishaudio/fish-speech",
+        "https://github.com/fishaudio/fish-speech/tree/541566932abbaebcb0a40e562a1f846738383f38",
+        "https://github.com/fishaudio/fish-speech/blob/541566932abbaebcb0a40e562a1f846738383f38/LICENSE",
+        "https://github.com/fishaudio/fish-speech/blob/541566932abbaebcb0a40e562a1f846738383f38/pyproject.toml",
+        "https://speech.fish.audio/install/",
+        "https://huggingface.co/fishaudio/drama-3",
+        "https://huggingface.co/fishaudio/s2-pro"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A speech-generation codebase with command-line, API-server, and web-interface paths."
+    },
+    {
+      "id": "fav-016",
+      "name": "Prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "platform": "GitHub",
+      "publisher": "f",
+      "category": "Knowledge & prompts",
+      "resource_type": "Prompt collection / application",
+      "activities": [
+        "prompt management"
+      ],
+      "industries": [
+        "Software development",
+        "Education"
+      ],
+      "upstream_description": null,
+      "catalog_description": "A community prompt collection with a web application for browsing and discovering prompts.",
+      "description_status": "Provisional FavRepos-authored summary based on documentation previously recorded in the review draft. The README at candidate commit de07abaca56754050204ee52f0e13a922029758d (blob 1f6950b9e0387c6fd92cd1ef003e422e67f2f53f) was later recovered by independent audit on 2026-10-19 and supports the prompt-library and browsing description; no functional test was performed. The candidate LICENSE was also recovered by that audit, but its catalog license field was not reassessed in this editorial update.",
+      "execution_environment": "Previously viewed mutable README documents Node.js 24.x, PostgreSQL, and npm for self-hosting; these requirements were not confirmed in README/package.json at candidate de07abaca56754050204ee52f0e13a922029758d.",
+      "codex_compatibility": null,
+      "license": "MIT for code/site-authored material and CC0 1.0 for prompt content per repository notice; verify rights and terms for individual third-party contributions and assets.",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/f/prompts.chat",
+        "https://github.com/f/prompts.chat/tree/de07abaca56754050204ee52f0e13a922029758d",
+        "https://github.com/f/prompts.chat/blob/de07abaca56754050204ee52f0e13a922029758d/LICENSE",
+        "https://github.com/f/prompts.chat/blob/main/README.md",
+        "https://github.com/f/prompts.chat/blob/main/package.json"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit"
+    },
+    {
+      "id": "fav-017",
+      "name": "Ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "platform": "GitHub",
+      "publisher": "ruvnet",
+      "category": "AI agents & skills",
+      "resource_type": "Agent orchestrator / MCP",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-017.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js >=20 and MIT were observed in mutable package metadata during the earlier review; candidate package manifest/license not retrieved at b93144803bb171b12993b715fe7b2dd936b6edd5. Optional MCP, memory, model-provider and integration features may add dependencies/services.",
+      "codex_compatibility": "Candidate README documents Codex connection via local stdio MCP and separately links npm package @claude-flow/codex labelled “Codex plugin”; package implementation and native Codex behavior were not inspected. No parity with Claude Code integrations established.",
+      "license": "MIT per observed package metadata; verify dependencies, models, integrations, and content separately.",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/ruvnet/ruflo",
+        "https://github.com/ruvnet/ruflo/blob/b93144803bb171b12993b715fe7b2dd936b6edd5/README.md",
+        "https://github.com/ruvnet/ruflo/blob/main/package.json",
+        "https://github.com/ruvnet/ruflo/releases",
+        "https://www.npmjs.com/package/@claude-flow/codex"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A command-line agent-orchestration framework with documented MCP tools and workflow integrations."
+    },
+    {
+      "id": "fav-018",
+      "name": "n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "platform": "GitHub",
+      "publisher": "n8n-io",
+      "category": "Automation & integrations",
+      "resource_type": "Workflow automation platform",
+      "activities": [
+        "workflow automation",
+        "integrations"
+      ],
+      "industries": [
+        "Business operations",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-018.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js >=24 and pnpm >=12.4.2 were reported by mutable main package metadata consulted 2026-10-18, but not confirmed for candidate commit d2dc2f9ce50294df5c08799af437c56e3e04ab13. Queue-mode guidance specifies Redis and recommends PostgreSQL; verify exact version prerequisites against the intended release.",
+      "codex_compatibility": null,
+      "license": "Sustainable Use License v1.0 was identified in mutable branch documentation; the candidate LICENSE at d2dc2f9ce50294df5c08799af437c56e3e04ab13 was not retrieved. Designated .ee files require enterprise terms. Verify the exact source and version; third-party components retain separate terms.",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/n8n-io/n8n",
+        "https://github.com/n8n-io/n8n/commit/d2dc2f9ce50294df5c08799af437c56e3e04ab13",
+        "https://github.com/n8n-io/n8n/releases/tag/n8n%402.43.0",
+        "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+        "https://github.com/n8n-io/n8n/blob/master/package.json",
+        "https://docs.n8n.io/hosting/scaling/queue-mode/",
+        "https://docs.n8n.io/hosting/securing/security-audit/",
+        "https://docs.n8n.io/sustainable-use-license/"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Fair-code, commercial restrictions require review",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A workflow-automation platform with a visual editor, triggers, webhooks, and integration components."
+    },
+    {
+      "id": "fav-019",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "platform": "GitHub",
+      "publisher": "openclaw",
+      "category": "AI agents & skills",
+      "resource_type": "Agent application",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-019.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Self-hosted gateway; upstream currently documents Node.js 24.16+ or 26.1+ (Node 26 recommended), provider credentials and local/Windows/WSL/container deployment paths; repository revision not pinned for this review",
+      "codex_compatibility": "Documented ability to reuse an existing Codex CLI login in onboarding; not a Codex-native plugin or MCP integration claim",
+      "license": "MIT (upstream repository-level declaration; associated plugins, skills, providers and model terms vary)",
+      "verification_level": "Candidate SHA e013cf2575b345bf729508d0364daff18888b4d6 could not be associated with files; moving-main documentation only; not hands-on tested",
+      "source_urls": [
+        "https://github.com/openclaw/openclaw",
+        "https://github.com/openclaw/openclaw/blob/main/docs/index.md",
+        "https://github.com/openclaw/openclaw/blob/main/docs/start/getting-started.md",
+        "https://github.com/openclaw/openclaw/blob/main/docs/gateway/security/index.md",
+        "https://github.com/openclaw/openclaw/blob/main/docs/gateway/security/prompt-injection.md",
+        "https://github.com/openclaw/openclaw/blob/main/SECURITY.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Technical research draft available in reviews/drafts/fav-019.md; documentation only, no hands-on testing.",
+      "catalog_description": "A self-hosted assistant gateway that connects messaging interfaces to AI agents and tools."
+    },
+    {
+      "id": "fav-020",
+      "name": "Meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "platform": "GitHub",
+      "publisher": "Zackriya-Solutions",
+      "category": "Meetings & productivity",
+      "resource_type": "Meeting assistant",
+      "activities": [
+        "meeting transcription"
+      ],
+      "industries": [
+        "Professional services",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-020.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Desktop application documented for Windows x64 (AVX2), Apple Silicon macOS, and Linux builds; Tauri/Rust backend with Next.js frontend, local Whisper or Parakeet transcription and optional local or remote LLM summaries; current README describes release v0.4.1",
+      "codex_compatibility": null,
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "README verified at code commit a2cb62e827da7ef59f65064c97233efb2313878e; release v0.4.1 and binaries are separate artifacts; not hands-on tested",
+      "source_urls": [
+        "https://github.com/Zackriya-Solutions/meetily",
+        "https://github.com/Zackriya-Solutions/meetily/releases",
+        "https://github.com/Zackriya-Solutions/meetily/blob/a2cb62e827da7ef59f65064c97233efb2313878e/README.md",
+        "https://github.com/Zackriya-Solutions/meetily/blob/main/PRIVACY_POLICY.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Technical research draft available in reviews/drafts/fav-020.md; documentation only, no hands-on testing.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A desktop meeting assistant for audio capture or import, transcription, and meeting summaries."
+    },
+    {
+      "id": "fav-021",
+      "name": "G0DM0D3",
+      "url": "https://github.com/elder-plinius/G0DM0D3",
+      "platform": "GitHub",
+      "publisher": "elder-plinius",
+      "category": "AI agents & skills",
+      "resource_type": "LLM research web application / optional API",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-021.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Browser-based static HTML/JavaScript interface with optional Node.js/Express API and optional local OpenAI-compatible model endpoint; GitHub documents a self-hosted web app rather than a model or general agent framework",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 for repository source; hosted service and dataset use have separate terms, and external models/providers retain their own terms",
+      "verification_level": "Candidate revision f6301765fb90eb7b336bdf365319cd2fe44b1187 README verified; other cited files remain on moving main; not hands-on tested",
+      "source_urls": [
+        "https://github.com/elder-plinius/G0DM0D3/blob/f6301765fb90eb7b336bdf365319cd2fe44b1187/README.md",
+        "https://github.com/elder-plinius/G0DM0D3/blob/main/TERMS.md",
+        "https://github.com/elder-plinius/G0DM0D3/blob/main/PAPER.md",
+        "https://github.com/elder-plinius/G0DM0D3/blob/main/SECURITY.md",
+        "https://github.com/elder-plinius/G0DM0D3/blob/main/LOCAL_MODELS.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Technical research draft available in reviews/drafts/fav-021.md; documentation only, no hands-on testing.",
+      "catalog_description": "A browser-based chat interface and optional API service for LLM robustness research."
+    },
+    {
+      "id": "fav-022",
+      "name": "OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "platform": "GitHub",
+      "publisher": "OpenCut-app",
+      "category": "Video production",
+      "resource_type": "Video editor",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-022.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Current repository is a rewrite in progress with web, API and early desktop development commands; upstream identifies Linux/macOS/Windows/WSL for development and says the archived opencut-classic is the version to use today",
+      "codex_compatibility": null,
+      "license": "MIT (current repository declaration; third-party dependencies and media codecs retain their own terms)",
+      "verification_level": "README, desktop README, Cargo.toml and LICENSE verified at candidate revision e668010778568641babef2cc40be4703ae6916d6; other manifests not pinned; not hands-on tested",
+      "source_urls": [
+        "https://github.com/OpenCut-app/OpenCut/blob/e668010778568641babef2cc40be4703ae6916d6/README.md",
+        "https://github.com/OpenCut-app/OpenCut/blob/e668010778568641babef2cc40be4703ae6916d6/apps/desktop/README.md",
+        "https://github.com/OpenCut-app/OpenCut/blob/main/apps/web/package.json",
+        "https://github.com/OpenCut-app/OpenCut/blob/e668010778568641babef2cc40be4703ae6916d6/Cargo.toml",
+        "https://github.com/OpenCut-app/OpenCut/blob/e668010778568641babef2cc40be4703ae6916d6/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Technical research draft available in reviews/drafts/fav-022.md; documentation only, no hands-on testing.",
+      "catalog_description": "A video-editing project with an active rewrite and a separate earlier version identified by its maintainers."
+    },
+    {
+      "id": "fav-023",
+      "name": "Agent Skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "platform": "GitHub",
+      "publisher": "addyosmani",
+      "category": "AI agents & skills",
+      "resource_type": "Skill collection",
+      "activities": [
+        "agent workflows",
+        "developer productivity"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-023.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Markdown-based skills loaded by supported agents; optional repo integrations, manifests, scripts and helper files add host-specific runtimes and permissions",
+      "codex_compatibility": "Explicitly documented Codex plugin marketplace integration; README currently specifies Codex CLI v0.122+ and the repository .codex-plugin manifest; not tested in this review",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "README and selected documentation verified at candidate revision aeac41d4d005999432bb7312f7ff06383a91d59d; collection not exhaustively audited; not hands-on tested",
+      "source_urls": [
+        "https://github.com/addyosmani/agent-skills/blob/aeac41d4d005999432bb7312f7ff06383a91d59d/README.md",
+        "https://github.com/addyosmani/agent-skills/blob/aeac41d4d005999432bb7312f7ff06383a91d59d/docs/skill-anatomy.md",
+        "https://github.com/addyosmani/agent-skills/blob/aeac41d4d005999432bb7312f7ff06383a91d59d/docs/getting-started.md",
+        "https://github.com/addyosmani/agent-skills/blob/aeac41d4d005999432bb7312f7ff06383a91d59d/docs/codex-setup.md",
+        "https://github.com/addyosmani/agent-skills"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Technical research draft available in reviews/drafts/fav-023.md; documentation only, no hands-on testing.",
+      "catalog_description": "A collection of Markdown-based workflows for coding agents, with optional host integrations and supporting materials."
+    },
+    {
+      "id": "fav-024",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "platform": "GitHub",
+      "publisher": "calesthio",
+      "category": "Video production",
+      "resource_type": "Agent-orchestrated video production toolkit",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "catalog_description": "An agent-directed video-production toolkit using pipeline manifests, instruction files, and media tools.",
+      "description_status": "FavRepos-authored summary. The initial review was conducted on 2026-10-18; the pinned sources were independently recovered on 2026-10-19. The README at commit 08e2151fa02de28a5d6a312b3d575692bf147ad7 (blob b4612e95d34f3820253c96e48582a9c3a8113815) and the earlier README at commit c8066452325cb57c8fc1ba8c2a71b6e8842e6b65 (blob 79a227ecc3a16a5e440402526f0c3c8e543dbe53) both announce 10+ pipelines, 100+ tools, and 700+ skill/knowledge files. The earlier catalog mentioned 12 pipelines. None of these quantities was independently inventoried. The pioneering claim is publisher-stated. No functional testing was performed.",
+      "execution_environment": "Python 3.10+, Node.js 18+ and FFmpeg; selected composition paths require Node.js 22+; optional local GPU and external media-generation/provider APIs",
+      "codex_compatibility": "Codex-specific instruction file (CODEX.md) points to shared agent guidance; not a Codex plugin, MCP server, or built-in editor; not tested",
+      "license": "AGPL-3.0 is presented in the repository LICENSE at commit c8066452325cb57c8fc1ba8c2a71b6e8842e6b65; this does not establish rights to media, models, outputs, fonts, assets, or external services.",
+      "verification_level": "README, architecture, agent guide, providers and setup inspected on 2026-10-18; commit 08e2151fa02de28a5d6a312b3d575692bf147ad7 and parent cd9f3c1f03368be87b140af494914b8ee4e3c7a4 confirmed in repository history; current file-level revision not fully pinned; no hands-on testing",
+      "source_urls": [
+        "https://github.com/calesthio/OpenMontage/blob/08e2151fa02de28a5d6a312b3d575692bf147ad7/README.md",
+        "https://github.com/calesthio/OpenMontage/blob/main/docs/ARCHITECTURE.md",
+        "https://github.com/calesthio/OpenMontage/blob/main/AGENT_GUIDE.md",
+        "https://github.com/calesthio/OpenMontage/blob/main/docs/PROVIDERS.md",
+        "https://github.com/calesthio/OpenMontage/blob/main/CODEX.md",
+        "https://github.com/calesthio/OpenMontage/blob/main/Makefile",
+        "https://github.com/calesthio/OpenMontage/blob/main/LICENSE",
+        "https://github.com/calesthio/OpenMontage/releases"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Agent-driven pipeline of YAML manifests, Markdown skills, Python media tools and checkpoint persistence; no independent runtime orchestrator. API credentials and costs vary by generation provider. No installation, execution, rendering, tests or independent security evaluation."
+    },
+    {
+      "id": "fav-025",
+      "name": "Comp AI CRM",
+      "url": "https://github.com/trycompai/crm",
+      "platform": "GitHub",
+      "publisher": "trycompai",
+      "category": "CRM & RevOps",
+      "resource_type": "CRM application with agent workflows",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-025.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Bun, Docker/PostgreSQL for local development; documented deployments use separate Next.js app, NestJS API and agent services; external identity, model and data provider configuration is optional or workflow-dependent",
+      "codex_compatibility": null,
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Release branch README, security policy, LICENSE and v1.15.3 release commit 3c3e07a424f761c2a2f09c05f111dd1b61a29c94 inspected; no hands-on testing; Codex integration not documented",
+      "source_urls": [
+        "https://github.com/trycompai/crm/releases/tag/v1.15.3",
+        "https://github.com/trycompai/crm/commit/3c3e07a424f761c2a2f09c05f111dd1b61a29c94",
+        "https://github.com/trycompai/crm/blob/release/README.md",
+        "https://github.com/trycompai/crm/blob/release/SECURITY.md",
+        "https://github.com/trycompai/crm/blob/release/LICENSE",
+        "https://github.com/trycompai/crm"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Distinct from trycompai/comp compliance platform. Security policy documents one-organization operation without roles, per-record permissions, or organization isolation; do not infer multi-tenancy or production suitability. No Codex-specific integration documented.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An agent-oriented CRM application with documented research and follow-up workflows."
+    },
+    {
+      "id": "fav-026",
+      "name": "Deskcomm CRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "platform": "GitHub",
+      "publisher": "melgarafael",
+      "category": "CRM & RevOps",
+      "resource_type": "Self-hosted CRM and messaging application",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-026.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js 22+; documented self-host deployment uses Docker Compose on a VPS, Supabase Postgres/Auth/Storage, domain and optional Redis; AI provider key for agent responses; resource requirements depend on WhatsApp sessions and workload",
+      "codex_compatibility": null,
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Current README, architecture, package metadata, security policy and deployment documentation inspected on 2026-10-18; exact current main SHA and v1.2.3 release commit not confirmed; no hands-on testing",
+      "source_urls": [
+        "https://github.com/melgarafael/DeskcommCRM",
+        "https://github.com/melgarafael/DeskcommCRM/blob/main/README.en.md",
+        "https://github.com/melgarafael/DeskcommCRM/blob/main/ARCHITECTURE.md",
+        "https://github.com/melgarafael/DeskcommCRM/blob/main/SECURITY.md",
+        "https://github.com/melgarafael/DeskcommCRM/blob/main/package.json",
+        "https://github.com/melgarafael/DeskcommCRM/blob/main/hostgator-setup-kit/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Architecture documents WAHA Plus/NOWEB (WhatsApp Web automation) separately from Meta Cloud API and exposes an MCP endpoint. LGPD wording is a publisher claim, not a compliance audit. No Codex-specific setup verified.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A CRM and chat-support application documented with messaging connectivity and AI-agent features."
+    },
+    {
+      "id": "fav-027",
+      "name": "Strix",
+      "url": "https://github.com/usestrix/strix",
+      "platform": "GitHub",
+      "publisher": "usestrix",
+      "category": "Security",
+      "resource_type": "AI-assisted security testing CLI and agent toolkit",
+      "activities": [
+        "application security"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-027.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Python >=3.12, Docker sandbox and an LLM provider API key for documented local runs; target reachability, scanners and optional hosted services add requirements and costs",
+      "codex_compatibility": "Explicit Codex compatibility through installable SKILL.md instructions (`npx skills add usestrix/strix`); this is not a Codex plugin or MCP server. Strix can connect as an MCP client to configured servers; not tested",
+      "license": "Apache-2.0 (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "v1.7.0 release, README, package metadata, license and coding-agent documentation inspected on 2026-10-18; release abbreviated SHA 55bc079 shown by GitHub, full SHA not verified; no tests or security assessment",
+      "source_urls": [
+        "https://github.com/usestrix/strix/releases/tag/v1.7.0",
+        "https://github.com/usestrix/strix/blob/main/README.md",
+        "https://github.com/usestrix/strix/blob/main/pyproject.toml",
+        "https://github.com/usestrix/strix/blob/main/LICENSE",
+        "https://github.com/usestrix/strix/blob/main/docs/integrations/coding-agents.mdx",
+        "https://github.com/usestrix/strix/tree/main/skills"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Active security testing must be limited to explicitly authorized targets. Agent reports, exploit evidence and captured data need human validation and protected handling; no scan or independent security assessment was performed.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A command-line tool and agent runtime for testing code, web applications, and APIs for security issues."
+    },
+    {
+      "id": "fav-028",
+      "name": "Evolution API",
+      "url": "https://github.com/evolution-foundation/evolution-api",
+      "platform": "GitHub",
+      "publisher": "evolution-foundation",
+      "category": "Automation & integrations",
+      "resource_type": "Messaging integration REST API",
+      "activities": [
+        "workflow automation",
+        "integrations"
+      ],
+      "industries": [
+        "Business operations",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-028.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Node.js 20+, PostgreSQL or MySQL, Docker deployment; Redis recommended; credentials, storage, queues and provider accounts depend on enabled integrations",
+      "codex_compatibility": null,
+      "license": "Apache-2.0 with additional brand-protection and usage-notification conditions stated in LICENSE",
+      "verification_level": "Current README, package metadata, LICENSE and security policy inspected on 2026-10-18; package version 2.3.7 and latest stable release v2.3.7 (short SHA cd800f2) confirmed; 2.4.0-rc2 (short SHA 5624bda) is a develop prerelease, not merged to main; full current-main SHA not confirmed; no hands-on testing",
+      "source_urls": [
+        "https://github.com/evolution-foundation/evolution-api/releases",
+        "https://github.com/evolution-foundation/evolution-api/blob/main/README.md",
+        "https://github.com/evolution-foundation/evolution-api/blob/main/package.json",
+        "https://github.com/evolution-foundation/evolution-api/blob/main/LICENSE",
+        "https://github.com/evolution-foundation/evolution-api/blob/main/SECURITY.md",
+        "https://github.com/evolution-foundation/evolution-docs/blob/main/docs/01-Get%20Started/Installation/Docker.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Baileys WhatsApp Web and Meta WhatsApp Cloud API are distinct connection methods with different terms and operational risks. 2.4.0 prerelease notes require license activation; do not treat that develop prerelease as stable main. No Codex-specific integration documented.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A self-hostable REST service for connecting messaging channels with CRMs, chatbots, and related systems."
+    },
+    {
+      "id": "fav-029",
+      "name": "FacePoke",
+      "url": "https://github.com/jbilcke-hf/FacePoke",
+      "platform": "GitHub",
+      "publisher": "jbilcke-hf",
+      "category": "Generative media",
+      "resource_type": "Application / demo",
+      "activities": [
+        "image and video generation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-029.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Documented local or self-hosted Docker/Hugging Face Spaces deployment; Linux, Python 3.10, CUDA 12.4 and an NVIDIA GPU are the only documented tested environment. Requires Git LFS, Python dependencies and Bun frontend dependencies; VRAM, storage and minimum GPU model are not specified.",
+      "codex_compatibility": null,
+      "license": "MIT (repository code). The README separately warns that InsightFace-derived model weights are for non-commercial research only; licenses/terms of all bundled or downloaded weights and assets need per-component review.",
+      "verification_level": "README, repository file list, deployment instructions and code paths inspected on 2026-10-18; repository archived 2025-10-31; full current-main SHA not verified; no hands-on testing",
+      "source_urls": [
+        "https://github.com/jbilcke-hf/FacePoke",
+        "https://github.com/jbilcke-hf/FacePoke/blob/main/README.md",
+        "https://github.com/jbilcke-hf/FacePoke/blob/main/requirements.txt",
+        "https://github.com/jbilcke-hf/FacePoke/blob/main/engine.py",
+        "https://github.com/jbilcke-hf/FacePoke/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Experimental portrait/head transformation interface based on LivePortrait and routines from ComfyUI-AdvancedLivePortrait. README says Linux/Python 3.10/CUDA 12.4/NVIDIA were tested and warns shared demo latency varies. No VRAM, resolution, latency benchmark or Codex-specific integration is documented. Respect portrait consent and likeness rights; a manipulated portrait may mislead viewers.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An interactive portrait application for adjusting head orientation and facial parameters."
+    },
+    {
+      "id": "fav-030",
+      "name": "B2B RevOps Skills",
+      "url": "https://github.com/NEON-Rutger/B2B-revops-skills",
+      "platform": "GitHub",
+      "publisher": "NEON-Rutger",
+      "category": "CRM & RevOps",
+      "resource_type": "Skill collection",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-030.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Documentation describes copying SKILL.md folders into a Claude project .claude/skills/ directory or uploading .skill archives in Claude apps. Runtime and provider/model requirements vary by skill and are not uniformly specified. No CRM credentials are inherently required to read the files; any external actions depend on a separate agent/tool setup.",
+      "codex_compatibility": "Generic Markdown can be read by Codex, but the repository documents installation and discovery for Claude Code/Claude apps; no Codex-specific packaging or integration is documented. Reading is not installation or native compatibility.",
+      "license": "MIT (repository, per README and GitHub license indicator); third-party material/benchmark source terms are not separately inventoried in this review.",
+      "verification_level": "README, skill directory listing, category inventory and release/version claims inspected on 2026-10-18; v1.8.1 and 45 listed skill directories claimed upstream; no hands-on testing",
+      "source_urls": [
+        "https://github.com/NEON-Rutger/B2B-revops-skills",
+        "https://github.com/NEON-Rutger/B2B-revops-skills/blob/main/README.md",
+        "https://github.com/NEON-Rutger/B2B-revops-skills/blob/main/CHANGELOG.md",
+        "https://github.com/NEON-Rutger/B2B-revops-skills/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Upstream's 45-skill claim matches the 45 skill directories listed in the README category inventory (15 + 10 + 5 + 2 + 5 + 8). README frames them as frameworks/playbooks that do not execute consulting or operational work by themselves. Review sensitive CRM or personal data handling before using any agent/tool integrations.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of text-based agent skills for business-to-business revenue operations and go-to-market work."
+    },
+    {
+      "id": "fav-031",
+      "name": "RevHackers Unified",
+      "url": "https://github.com/revhackers/revhackers-unified",
+      "platform": "GitHub",
+      "publisher": "revhackers",
+      "category": "CRM & RevOps",
+      "resource_type": "Web application",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-031.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "React, TypeScript and Vite frontend; README documents npm install, npm run dev, npm run build, npm run lint and npm test. package.json also declares API build/start/typecheck scripts. The README does not state a Node.js version. Current deployment is documented as Hostinger; Google Cloud is a planned, unimplemented migration. Supabase is described as the legacy data/auth/functions infrastructure.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "README.md and package.json inspected at commit 690a5b38457a5aa3c1f3b6c2fb189b5954ef79d1 on 2026-10-18; Git tree confirms exact file blobs and no license file at repository root at this revision; no code executed or hands-on testing",
+      "source_urls": [
+        "https://github.com/revhackers/revhackers-unified",
+        "https://github.com/revhackers/revhackers-unified/blob/690a5b38457a5aa3c1f3b6c2fb189b5954ef79d1/README.md",
+        "https://github.com/revhackers/revhackers-unified/blob/690a5b38457a5aa3c1f3b6c2fb189b5954ef79d1/package.json",
+        "https://github.com/revhackers/revhackers-unified/tree/690a5b38457a5aa3c1f3b6c2fb189b5954ef79d1"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Documented application combines institutional site, blog, materials/cases, administration, REI, and a client hub. Repository structure includes src/, supabase/, scripts/, tests/, and docs/; README describes an experiment directory outside production. package.json declares Vite, lint, unit/API/e2e and API lifecycle scripts and dependencies including Supabase JS, Firebase, and Vercel Analytics; declarations do not prove these services are active or all data flows. README says .env files are local and must not be versioned. No Codex-specific integration confirmed. No LICENSE file exists at the root in the reviewed tree; package.json marks the project private, and no open-source license was verified.",
+      "catalog_description": "A web application whose documentation describes a site, blog, administration, and client hub."
+    },
+    {
+      "id": "fav-032",
+      "name": "RevOps.io (Organization)",
+      "url": "https://github.com/revops-io",
+      "platform": "GitHub",
+      "publisher": "revops-io",
+      "category": "CRM & RevOps",
+      "resource_type": "GitHub organization",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-032.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": null,
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Organization profile and six public repositories inspected on 2026-10-18; no organization-wide SHA applies; individual repository revisions not verified; no hands-on testing",
+      "source_urls": [
+        "https://github.com/revops-io",
+        "https://github.com/revops-io/revops.js",
+        "https://github.com/revops-io/revops-python",
+        "https://github.com/revops-io/revops-webhook-server"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "This entry identifies a GitHub organization, not one repository or a versioned product. The profile links revops.io and lists six public repositories, including a React component library, Python API library and webhook examples. Individual repositories have their own histories and licenses; do not combine them into one codebase or infer shared license/security posture. Profile retrieval date is 2026-10-18; no global SHA exists.",
+      "catalog_description": "A GitHub organization profile linking to RevOps repositories and projects."
+    },
+    {
+      "id": "fav-033",
+      "name": "Awesome Revenue Operations Platform",
+      "url": "https://github.com/ishandutta2007/Awesome-Revenue-Operations-Platform",
+      "platform": "GitHub",
+      "publisher": "ishandutta2007",
+      "category": "CRM & RevOps",
+      "resource_type": "Curated directory",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-033.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Directory/documentation only; browsing the README requires no runtime. Listed SaaS products and open-source projects have separate hosting, account, licensing, data and cost requirements; the directory does not install or operate them.",
+      "codex_compatibility": null,
+      "license": "MIT repository license indicated by GitHub; catalog content describes third-party products and repositories whose separate licenses and commercial terms remain with their respective owners.",
+      "verification_level": "README, repository file list and GitHub license indicator inspected on 2026-10-18; current-main full SHA not verified; no hands-on testing",
+      "source_urls": [
+        "https://github.com/ishandutta2007/Awesome-Revenue-Operations-Platform",
+        "https://github.com/ishandutta2007/Awesome-Revenue-Operations-Platform/blob/main/README.md",
+        "https://github.com/ishandutta2007/Awesome-Revenue-Operations-Platform/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "A curated directory and editorial README, not a unified software platform. Its open-source framing applies to the repository/license indicator, not every listed product or codebase. Pricing, market-size and valuation statements are upstream claims, not independently verified; validate each vendor current first-party terms before reliance. No Codex/MCP integration is documented for the directory itself.",
+      "catalog_description": "An editorial directory of revenue-operations products, repositories, and related resources."
+    },
+    {
+      "id": "fav-034",
+      "name": "GTM Agents",
+      "url": "https://github.com/gtmagents/gtm-agents",
+      "platform": "GitHub",
+      "publisher": "gtmagents",
+      "category": "CRM & RevOps",
+      "resource_type": "Claude Code plugin and agent-skill collection",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-034.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Claude Code plugin marketplace; Markdown instructions and optional scripts; no standalone GTM platform runtime documented",
+      "codex_compatibility": "Upstream documents copying individual skills to Codex skill directories; this is a documented manual path, not a native Codex plugin or tested integration",
+      "license": "MIT for repository code; third-party materials may retain separate rights",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/gtmagents/gtm-agents",
+        "https://github.com/gtmagents/gtm-agents/blob/main/README.md",
+        "https://github.com/gtmagents/gtm-agents/blob/main/LICENSE",
+        "https://github.com/gtmagents/gtm-agents/blob/main/SECURITY.md",
+        "https://github.com/gtmagents/gtm-agents/blob/main/CHANGELOG.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "README advertises 67 plugins, 92 agents, and 52 skills; counts are upstream claims, and available documentation contains differing category totals. Skills include SKILL.md, references, assets, and optional scripts. Claude Code is the native marketplace target; Codex use is described as manual copying. No performance claims were independently tested.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of agent plugins and skills for sales, marketing, customer-success, and revenue-operations workflows."
+    },
+    {
+      "id": "fav-035",
+      "name": "GTM Skills",
+      "url": "https://github.com/LeadMagic/gtm-skills",
+      "platform": "GitHub",
+      "publisher": "LeadMagic",
+      "category": "CRM & RevOps",
+      "resource_type": "Skill collection",
+      "activities": [
+        "sales operations",
+        "revenue operations"
+      ],
+      "industries": [
+        "Sales & customer service",
+        "B2B services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-035.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Portable Agent Skills folders for compatible coding-agent runtimes; optional installer and executable deliverable checkers",
+      "codex_compatibility": "Codex installation documented via `gh skill install --agent codex`; not practically verified and not a native plugin or repository-owned MCP integration.",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/LeadMagic/gtm-skills",
+        "https://github.com/LeadMagic/gtm-skills/blob/main/README.md",
+        "https://github.com/LeadMagic/gtm-skills/blob/main/LICENSE",
+        "https://github.com/LeadMagic/gtm-skills/blob/main/SECURITY.md",
+        "https://github.com/LeadMagic/gtm-skills/blob/main/CHANGELOG.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "README inventory claims 211 skills across 25 categories, each with SKILL.md, references, templates, and an executable checker; repository tree and generated skills.lock support a packaged collection. gh skill install documents Codex, Claude Code, and GitHub Copilot targets. Some workflows reference paid enrichment providers and CRM or outbound systems; this documents playbooks, not proven service execution.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of agent skills and supporting materials for go-to-market planning and execution."
+    },
+    {
+      "id": "fav-036",
+      "name": "PersoDub",
+      "url": "https://github.com/stronghamjji/PersoDub",
+      "platform": "GitHub",
+      "publisher": "stronghamjji",
+      "category": "Audio & speech",
+      "resource_type": "Desktop video dubbing application",
+      "activities": [
+        "transcription",
+        "voice technology"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Accessibility"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-036.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Electron desktop shell with a local FastAPI backend and Python AI kit on Apple Silicon macOS or 64-bit Windows; optional cloud transcription, translation, or dubbing providers",
+      "codex_compatibility": "Optional documented Dub Agent can invoke an installed and configured Codex CLI as a subprocess; this is not a native Codex plugin or a general integration for dubbing flows. Sandbox restrictions, file access, and data transmission depend on the actual Codex configuration. Not tested.",
+      "license": "AGPL-3.0-or-later for the application; third-party model weights and services have separate terms",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/stronghamjji/PersoDub",
+        "https://github.com/stronghamjji/PersoDub/blob/main/README.md",
+        "https://github.com/stronghamjji/PersoDub/blob/main/INSTALL.md",
+        "https://github.com/stronghamjji/PersoDub/blob/main/docs/architecture.md",
+        "https://github.com/stronghamjji/PersoDub/blob/main/docs/privacy.md",
+        "https://github.com/stronghamjji/PersoDub/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "The repository documents Whisper, CAM++, Qwen3-TTS, Demucs or Mel-Band RoFormer, and local Hunyuan/Gemma translators. Local operation is configurable and model downloads require internet; optional providers can receive media or transcript text. Resource requirements and privacy behavior remain documentation claims, not hands-on verified.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A desktop video-dubbing and media-processing application with documented local and hosted-service options."
+    },
+    {
+      "id": "fav-037",
+      "name": "HeyGen CLI",
+      "url": "https://github.com/heygen-com/heygen-cli",
+      "platform": "GitHub",
+      "publisher": "heygen-com",
+      "category": "Video production",
+      "resource_type": "Official API CLI",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-037.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Single static Go CLI for macOS, Linux, and Windows via WSL; sends requests to HeyGen's hosted API",
+      "codex_compatibility": null,
+      "license": "Apache-2.0 (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/heygen-com/heygen-cli",
+        "https://github.com/heygen-com/heygen-cli/blob/main/README.md",
+        "https://github.com/heygen-com/heygen-cli/blob/main/LICENSE",
+        "https://github.com/heygen-com/heygen-cli/blob/main/SECURITY.md",
+        "https://github.com/heygen-com/heygen-cli/releases/tag/v0.10.0",
+        "https://developers.heygen.com/cli",
+        "https://www.heygen.com/terms"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "The Go CLI is a local API client; video generation and related processing occur in HeyGen's hosted service. Release v0.10.0 is dated 2026-10-08 and points to abbreviated commit d19ba0c; a full reviewed repository SHA could not be independently confirmed. Auth supports API key or OAuth, and creation, upload, translation, and avatar operations may consume API or subscription credits. No practical test was performed.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A command-line client for the hosted HeyGen video-generation API."
+    },
+    {
+      "id": "fav-038",
+      "name": "HeyGen Skills",
+      "url": "https://github.com/heygen-com/skills",
+      "platform": "GitHub",
+      "publisher": "heygen-com",
+      "category": "Video production",
+      "resource_type": "Skill collection",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-038.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent Skills folders for compatible runtimes; calls HeyGen through hosted CLI/API or remote MCP",
+      "codex_compatibility": "Codex support is documented through `.codex-plugin/plugin.json` and `gh skill install`, packaging three Agent Skills (`heygen-avatar`, `heygen-video`, `heygen-translate`). The skills use the separate remote HeyGen service through API/CLI or MCP; media generation requires service authentication and applicable credits. Installation and operation not tested.",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/heygen-com/skills",
+        "https://github.com/heygen-com/skills/blob/master/README.md",
+        "https://github.com/heygen-com/skills/blob/master/LICENSE",
+        "https://github.com/heygen-com/skills/blob/master/.codex-plugin/plugin.json",
+        "https://github.com/heygen-com/skills/blob/master/.mcp.json",
+        "https://github.com/heygen-com/skills/blob/master/heygen-avatar/SKILL.md",
+        "https://github.com/heygen-com/skills/blob/master/heygen-video/SKILL.md",
+        "https://github.com/heygen-com/skills/blob/master/heygen-translate/SKILL.md",
+        "https://github.com/heygen-com/skills/blob/master/INSTALL_FOR_AGENTS.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "The README documents three skills (heygen-avatar, heygen-video, heygen-translate), Codex installation via gh skill, and a .codex-plugin manifest. Generation and avatar creation require an authorized HeyGen account through its CLI/API or remote MCP; API keys or plan credits may be consumed. Skills may upload photos, videos, and voice-related inputs. MIT covers this repository only, not HeyGen services or third-party assets. Full reviewed SHA not confirmed.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An agent-skill collection documenting workflows for HeyGen avatar, video-generation, and translation services."
+    },
+    {
+      "id": "fav-039",
+      "name": "HyperFrames",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "platform": "GitHub",
+      "publisher": "heygen-com",
+      "category": "Video production",
+      "resource_type": "Video rendering engine / CLI",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-039.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Local CLI/library: Node.js 22+ and FFmpeg; optional hosted or serverless rendering paths have separate requirements.",
+      "codex_compatibility": "Explicit documented Codex plugin packaging and skill support; native plugin upload packaging is documented. Runtime still requires Node.js 22+ and FFmpeg for local CLI rendering; installation and rendering were not tested.",
+      "license": "Apache-2.0 (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/heygen-com/hyperframes",
+        "https://github.com/heygen-com/hyperframes/blob/v0.8.173/README.md",
+        "https://github.com/heygen-com/hyperframes/blob/v0.8.173/packages/cli/package.json",
+        "https://github.com/heygen-com/hyperframes/blob/v0.8.173/.codex-plugin/plugin.json",
+        "https://github.com/heygen-com/hyperframes/blob/v0.8.173/docs/guides/plugins.mdx",
+        "https://github.com/heygen-com/hyperframes/blob/v0.8.173/docs/introduction.mdx",
+        "https://github.com/heygen-com/hyperframes/blob/v0.8.173/LICENSE",
+        "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.173",
+        "https://github.com/heygen-com/hyperframes/commits/main"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "HTML/CSS/JavaScript compositions are frame-seeked by a headless Chromium engine and encoded/mixed with FFmpeg. No inference of HeyGen AI-generation API functionality; optional cloud/deployment surfaces have separate service requirements.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A code-driven video-rendering tool with HTML authoring and command-line workflows."
+    },
+    {
+      "id": "fav-040",
+      "name": "HyperFrames Community Skills",
+      "url": "https://github.com/heygen-com/hyperframes-community-skills",
+      "platform": "GitHub",
+      "publisher": "heygen-com",
+      "category": "Video production",
+      "resource_type": "Skill collection",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-040.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent skill instructions and optional per-skill scripts/assets; most workflows use the HyperFrames CLI, Node.js and FFmpeg, with additional requirements varying by skill.",
+      "codex_compatibility": "Generic skills installer documentation supports agent targeting, but no explicit Codex target or Codex-specific package is documented in the inspected sources; compatibility is unverified.",
+      "license": "Apache-2.0 for repository content; individual media, assets, fonts, and third-party dependencies may carry separate terms.",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/heygen-com/hyperframes-community-skills",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/README.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/tree/master/skills",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/skills/session-story/SKILL.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/skills/day-in-my-life/SKILL.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/skills/p5-paint-animation/SKILL.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/skills/x-posting-license/SKILL.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/skills/vox-explainer/SKILL.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/CONTRIBUTING.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/LICENSE",
+        "https://github.com/heygen-com/hyperframes-community-skills/blob/master/SECURITY.md",
+        "https://github.com/heygen-com/hyperframes-community-skills/commits/master"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Eight skills listed in the README. Community-maintained and explicitly separate from the curated HyperFrames distribution. Some skills read local agent history or use remote assets/services; review each SKILL.md and script before use.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of independent agent skills for HyperFrames workflows, with optional scripts and assets."
+    },
+    {
+      "id": "fav-041",
+      "name": "HyperFrames Launches",
+      "url": "https://github.com/heygen-com/hyperframes-launches",
+      "platform": "GitHub",
+      "publisher": "heygen-com",
+      "category": "Video production",
+      "resource_type": "Templates / examples",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-041.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Local HTML/CSS/JavaScript compositions using the HyperFrames CLI/browser preview; repository also distributes media assets through Git LFS.",
+      "codex_compatibility": "No Codex integration documented; Codex may be used as a general-purpose editor, but compatibility is not established by the repository.",
+      "license": "Apache-2.0 for original composition source, configuration, and documentation; bundled media, brand assets, fonts, third-party software, and trademarks are excluded or separately governed.",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/heygen-com/hyperframes-launches",
+        "https://github.com/heygen-com/hyperframes-launches/blob/main/README.md",
+        "https://github.com/heygen-com/hyperframes-launches/tree/main",
+        "https://github.com/heygen-com/hyperframes-launches/blob/main/LICENSE",
+        "https://github.com/heygen-com/hyperframes-launches/blob/main/NOTICE",
+        "https://github.com/heygen-com/hyperframes-launches/tree/main/codex-five-hour-limit-replica",
+        "https://github.com/heygen-com/hyperframes-launches/commits/main"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "README lists 20 composition folders and documents Git LFS for media. Each composition may require its media assets and a compatible HyperFrames version; licensing the code does not grant media or trademark rights.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A collection of HTML video compositions associated by its maintainers with product-launch examples."
+    },
+    {
+      "id": "fav-042",
+      "name": "HyperFrames Modal Template",
+      "url": "https://github.com/heygen-com/hyperframes-modal-template",
+      "platform": "GitHub",
+      "publisher": "heygen-com",
+      "category": "Video production",
+      "resource_type": "Deployment template",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-042.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Modal-hosted Python/FastAPI web endpoint and spawned rendering functions; local deployment setup uses uv, Python, Modal authentication, and the Modal CLI. The container image includes Node.js 22, Python 3.12, FFmpeg, Chromium, and HyperFrames CLI.",
+      "codex_compatibility": "No Codex-specific integration documented; Codex can inspect or edit the template, but deployment requires a separately configured Modal account and credentials.",
+      "license": "Apache-2.0 for the template repository; Modal service terms, HyperFrames and other dependency terms remain separate.",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/heygen-com/hyperframes-modal-template",
+        "https://github.com/heygen-com/hyperframes-modal-template/blob/main/README.md",
+        "https://github.com/heygen-com/hyperframes-modal-template/blob/main/src/app.py",
+        "https://github.com/heygen-com/hyperframes-modal-template/blob/main/LICENSE",
+        "https://github.com/heygen-com/hyperframes-modal-template/commits/main",
+        "https://modal.com/pricing"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Template pins HyperFrames CLI 0.7.41, FastAPI 0.139.0, and sets a 15-minute render function timeout. Preview, render submission/status polling, and MP4 retrieval endpoints are documented in source; endpoint access controls, retention, quotas and production hardening were not established.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A deployment template for hosting a HyperFrames composition on Modal."
+    },
+    {
+      "id": "fav-043",
+      "name": "Super Video Maker Skill",
+      "url": "https://github.com/Bomx/super-video-maker-skill",
+      "platform": "GitHub",
+      "publisher": "Bomx",
+      "category": "Video production",
+      "resource_type": "Media-production skill",
+      "activities": [
+        "video creation",
+        "creative automation"
+      ],
+      "industries": [
+        "Creative industries",
+        "Marketing & advertising",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-043.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent skill and local Python/JavaScript tools, FFmpeg, Chromium/Playwright, and optional Remotion/HyperFrames templates; optional provider APIs and cloud storage operate remotely.",
+      "codex_compatibility": "No explicit Codex integration or Codex-specific installer documented; README names Cursor and Claude Code and gives generic agent placement instructions, so Codex compatibility is unverified.",
+      "license": null,
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/Bomx/super-video-maker-skill",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/README.md",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/SKILL.md",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/REFERENCE.md",
+        "https://github.com/Bomx/super-video-maker-skill/tree/main",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/package.json",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/requirements.txt",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/.env.example",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/tools/heygen_client.py",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/tools/replicate_video.py",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/tools/image_provider.py",
+        "https://github.com/Bomx/super-video-maker-skill/blob/main/tools/ffmpeg_qc.py",
+        "https://github.com/Bomx/super-video-maker-skill/commits/main"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Instruction-led workflow plus executable scripts/templates. Provider references include HeyGen, OpenAI, fal.ai, Replicate, ElevenLabs, AWS S3, FFmpeg, Remotion and HyperFrames. No repository LICENSE file was found at the inspected main-branch path; no license is asserted.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An agent workflow collection with executable media tools and starter video projects."
+    },
+    {
+      "id": "fav-044",
+      "name": "Duix Avatar",
+      "url": "https://github.com/duixcom/Duix-Avatar",
+      "platform": "GitHub",
+      "publisher": "duixcom",
+      "category": "Avatars & lip sync",
+      "resource_type": "Desktop application",
+      "activities": [
+        "avatar production",
+        "dubbing"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-044.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Windows 10+ or Ubuntu 22.04; Docker, Node.js 18 and NVIDIA GPU documented; recommended RTX 4070, 32 GB RAM and >100 GB storage; network needed for initial ~70 GB downloads; offline operation is an upstream post-setup claim.",
+      "codex_compatibility": null,
+      "license": "Duix Community License; separate model community license agreement; third-party images/assets require separate review",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/duixcom/Duix-Avatar/blob/main/README.md",
+        "https://github.com/duixcom/Duix-Avatar/blob/main/package.json",
+        "https://github.com/duixcom/Duix-Avatar/blob/main/LICENSE",
+        "https://github.com/duixcom/Duix-Avatar/blob/main/Duix.Avatar%20model%20community%20Licensing%20Agreement.pdf",
+        "https://github.com/duixcom/Duix-Avatar/releases/tag/v1.0.6"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Electron/Vue desktop client with Dockerized avatar/video services. Upstream documents voice/appearance cloning, ASR and lip-sync; not independently tested. README recommends RTX 4070/32 GB RAM and estimates ~70 GB initial downloads. Community license includes attribution and >1,000 MAU commercial-license condition. Full source SHA unconfirmed; release page shows abbreviated v1.0.6 commit 9e0f12d.",
+      "catalog_description": "A desktop application documented for creating talking-avatar videos from text or reference media."
+    },
+    {
+      "id": "fav-045",
+      "name": "Duix Skills",
+      "url": "https://github.com/duixcom/duix-skills",
+      "platform": "GitHub",
+      "publisher": "duixcom",
+      "category": "Avatars & lip sync",
+      "resource_type": "Skill collection",
+      "activities": [
+        "avatar production",
+        "dubbing"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-045.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent SKILL.md files plus duix-cli on Node.js 18+; macOS, Linux or Windows/WSL documented. Workflows require Duix credentials, network services and paid quota/credits.",
+      "codex_compatibility": "Documented SKILL.md compatibility with Codex; no native MCP plugin documented",
+      "license": "Apache-2.0 for repository materials; CLI, hosted services, models, voices and output rights separate",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/duixcom/duix-skills",
+        "https://github.com/duixcom/duix-skills/blob/main/duix-avatar-conversation/SKILL.md",
+        "https://github.com/duixcom/duix-skills/blob/main/duix-avatar-conversation/README.md",
+        "https://github.com/duixcom/duix-skills/blob/main/duix-avatar-video-generation/SKILL.md",
+        "https://github.com/duixcom/duix-skills/blob/main/duix-avatar-video-generation/README.md",
+        "https://github.com/duixcom/duix-skills/blob/main/LICENSE"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Two documented skills: realtime hosted avatar conversation and hosted lip-synced video generation. Uses duix-cli/scripts, not local model inference; conversation needs DUIX_APP_ID/DUIX_APP_KEY and subscription quota; video needs DUIX_API_KEY and credits. Input media is uploaded to the Duix service per workflow. Codex listed by upstream as SKILL.md-compatible. Full SHA unconfirmed.",
+      "catalog_description": "Two agent skill workflows that interface with Duix services for avatar and video-generation tasks."
+    },
+    {
+      "id": "fav-046",
+      "name": "Duix Mobile",
+      "url": "https://github.com/duixcom/Duix-Mobile",
+      "platform": "GitHub",
+      "publisher": "duixcom",
+      "category": "Avatars & lip sync",
+      "resource_type": "Mobile SDK",
+      "activities": [
+        "avatar production",
+        "dubbing"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-046.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Android 10+ (8+ CPU cores, 8 GB device RAM, 1 GB storage, 800 MB available) and iOS 12+ (Xcode 12+, iPhone 8+, A12+/3 GB recommended); local rendering after model/config downloads.",
+      "codex_compatibility": null,
+      "license": "Duix Community License; separate avatar/model asset and third-party terms require review",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/duixcom/Duix-Mobile",
+        "https://github.com/duixcom/Duix-Mobile/blob/main/duix-android/dh_aigc_android/README.md",
+        "https://github.com/duixcom/Duix-Mobile/blob/main/duix-ios/GJLocalDigitalDemo/README.md",
+        "https://github.com/duixcom/Duix-Mobile/blob/main/LICENSE",
+        "https://github.com/duixcom/Duix-Mobile/blob/main/PRIVACYSTATEMENT.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Separate Android SDK/module or AAR and iOS framework documented. Local avatar rendering, PCM/WAV audio driving, streaming and motion control; host app may integrate independent LLM/ASR/TTS services. Initial model downloads needed. Upstream latency claims differ (<1.5 s About text vs <120 ms on Snapdragon 8 Gen 2) and were not independently reproduced. Community license has attribution and >1,000 MAU commercial-license condition. Full SHA unconfirmed.",
+      "catalog_description": "A mobile SDK family documented for integrating 2D digital-human avatars into Android and iOS applications."
+    },
+    {
+      "id": "fav-047",
+      "name": "LongCat Video Avatar 1.5",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+      "platform": "Hugging Face",
+      "publisher": "meituan-longcat",
+      "category": "Avatars & lip sync",
+      "resource_type": "AI model weights",
+      "activities": [
+        "avatar production",
+        "dubbing"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-047.md (catalog review date: 2026-10-18). No upstream description was included in the reviewed catalog record. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Local Python 3.10/PyTorch 2.6 CUDA 12.4 example with FlashAttention-2, FFmpeg and project dependencies; 74.9 GB repository listing, including 31.7 GB base_model; suitable GPU/VRAM minimum not established in reviewed card.",
+      "codex_compatibility": null,
+      "license": "Publisher documentation states MIT for designated model weights and repository contributions unless otherwise stated; the direct LICENSE and base-model terms were not confirmed for the reviewed candidate.",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+        "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5/tree/main",
+        "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5/tree/main/base_model",
+        "https://github.com/meituan-longcat/LongCat-Video",
+        "https://github.com/meituan-longcat/LongCat-Video/blob/main/assets/LongCat-Video-Avatar-1.5-Tech-Report.pdf"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "technical_notes": "Audio-driven single/multi-person video generation and continuation, per model card. Weights listed publicly; base_model directory shows 31.7 GB and abbreviated verified revision d3cfdd0, while overall repo shows 74.9 GB and abbreviated 92016c7; full SHAs and per-path revisions not confirmed. MIT stated by card; direct LICENSE route returned 404. Author-reported human evaluation is not independent. No minimum GPU/VRAM confirmed.",
+      "catalog_description": "A LongCat video-generation model-checkpoint collection for audio-driven avatar workflows."
+    },
+    {
+      "id": "fav-048",
+      "name": "FreeLLMAPI",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "platform": "GitHub",
+      "publisher": "tashfeenahmed",
+      "category": "AI infrastructure",
+      "resource_type": "LLM API gateway",
+      "activities": [
+        "model routing",
+        "API management"
+      ],
+      "industries": [
+        "Software development",
+        "AI infrastructure"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-048.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Self-hosted Node.js 20+ on Windows/macOS/Linux; Docker, Compose, local npm and desktop options. Gateway may run locally, but inference requests are forwarded to configured upstream providers unless a local custom endpoint is selected.",
+      "codex_compatibility": "Documented OpenAI-compatible endpoint, launch-codex recipe and MCP endpoint for compatible clients; does not imply ChatGPT/Codex subscription credential support",
+      "license": "MIT for repository code; provider/model services remain under their own licenses, terms, quotas and billing rules",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/tashfeenahmed/freellmapi",
+        "https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/README.md",
+        "https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/install/01-install.md",
+        "https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/api/01-rest-api.md",
+        "https://github.com/tashfeenahmed/freellmapi/security",
+        "https://github.com/tashfeenahmed/freellmapi/blob/main/LICENSE",
+        "https://github.com/tashfeenahmed/freellmapi/blob/main/docs/en/architecture/00-high-level-index.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Single-user router/proxy; no model inference hosted by gateway. Keys documented encrypted at rest in SQLite; request data goes to selected upstream provider(s), and logs/analytics/cache may apply. Free tiers are limited, variable and provider-governed; project describes personal experimentation, not production, and recommends paid APIs for shipping. Default loopback binding; not designed for multi-tenant use. Full SHA unconfirmed.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "A self-hosted gateway that exposes an OpenAI-compatible endpoint and routes requests to configured providers."
+    },
+    {
+      "id": "fav-049",
+      "name": "Cloudflare Security Audit",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "platform": "GitHub",
+      "publisher": "cloudflare",
+      "category": "Security",
+      "resource_type": "Security audit skill",
+      "activities": [
+        "application security"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-049.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Coding agent with tool use and parallel sub-agent/task support; Node.js for bundled zero-dependency validators. Target-controlled execution requires an OS-enforced sandbox with no external network, an allowlisted environment, read-only target/toolchain, scratch-only writes, and resource limits.",
+      "codex_compatibility": "Generic, agent-neutral SKILL.md instructions; no Codex-specific setup or integration documented, and Codex runtime compatibility not tested",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Source inspected",
+      "source_urls": [
+        "https://github.com/cloudflare/security-audit-skill",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/README.md",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/RECONNAISSANCE.md",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/HUNTING.md",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/VALIDATION-AND-REPORTING.md",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/report-schema.json",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/validate-findings.cjs",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/skills/security-audit/validate-coverage-ledger.cjs",
+        "https://github.com/cloudflare/security-audit-skill/blob/main/LICENSE",
+        "https://github.com/cloudflare/security-audit-skill/security",
+        "https://github.com/cloudflare/security-audit-skill/releases",
+        "https://github.com/cloudflare/security-audit-skill/tags",
+        "https://github.com/cloudflare/security-audit-skill/commits/main"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Single agent skill; orchestrates coding-agent source analysis rather than supplying a standalone scanner. Its six documented phases include coverage tracking, adversarial intra-workflow verification, JSON findings and ledger validators. `findings.json` schema records fingerprints, file/line traces, evidence, verdict-specific validation, remediation, severity and confidence; no CWE/CVE or SARIF format is documented. MIT is declared by the README and repository license. No Codex-specific integration, native plugin, or MCP server documented; Codex compatibility untested. Target execution requires an OS-enforced sandbox. No install, audit, validator, scanner, test, or target code was run. GitHub resolved `/commit/main` to abbreviated `c1c8a8c`, but full SHA and exact correspondence of dynamic `main` source views remain unconfirmed; no release was shown.",
+      "industry_tag_status": "Suggested use sectors, not verified product-market fit",
+      "catalog_description": "An agent skill for structured, source-first code-security review workflows."
+    },
+    {
+      "id": "fav-050",
+      "name": "Humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "platform": "GitHub",
+      "publisher": "blader",
+      "category": "Knowledge & prompts",
+      "resource_type": "Writing/editing agent skill",
+      "activities": [
+        "writing",
+        "editing",
+        "content review"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Education",
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-050.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "An agent runtime that loads Agent Skills markdown and processes user-provided prose; installation via the skills CLI or manual skill-folder copy is documented. Runtime, provider, and data-retention behavior depend on the host agent.",
+      "codex_compatibility": "README documents installation with `npx skills add blader/humanizer --global --agent codex`; this is a documented Agent Skills installation path, not hands-on tested.",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/blader/humanizer",
+        "https://github.com/blader/humanizer/blob/main/README.md",
+        "https://github.com/blader/humanizer/blob/main/SKILL.md",
+        "https://github.com/blader/humanizer/blob/main/LICENSE",
+        "https://github.com/blader/humanizer/blob/main/CHANGELOG.md",
+        "https://github.com/blader/humanizer/commits/main"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "Instruction-led prose editing skill: the inspected SKILL.md specifies pattern recognition, rewrite, and claim-preservation steps; a small scripts/ directory is present for repository checks/package validation, not the core rewriting behavior. It describes 26 English-language style patterns based on Wikipedia's 'Signs of AI writing' and requires that facts be sourced from the writer or source. README explicitly says evading AI detectors is not a goal and that detectors still flag most output; its cited 16/16 preference result is a maintainer-reported blind test, not independently verified here. No evidence establishes quality in other languages or guarantees preservation of intent/voice. User input may be sent to the selected model provider; host data handling is unknown. GitHub's dynamic main view was inspected on the review date; full commit SHA and correspondence between dynamic file pages and one pinned revision were not confirmed. No installation, execution, detector test, benchmark, or practical evaluation was performed.",
+      "industry_tag_status": "Suggested general-use sectors, not verified product-market fit",
+      "catalog_description": "A prose-editing skill that guides an agent to revise stylistic patterns while preserving claims and voice."
+    },
+    {
+      "id": "fav-051",
+      "name": "Boop",
+      "url": "https://github.com/IvanMathy/Boop",
+      "platform": "GitHub",
+      "publisher": "IvanMathy",
+      "category": "Automation & integrations",
+      "resource_type": "macOS desktop application / scriptable text scratchpad",
+      "activities": [
+        "text transformation",
+        "developer productivity",
+        "scripting"
+      ],
+      "industries": [
+        "Software development",
+        "Media & entertainment",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-051.md (catalog review date: 2026-10-19). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "macOS desktop application. Source build instructions use Xcode and Boop.xcodeproj; GitHub releases and Mac App Store are documented distribution channels. Homebrew is identified as unofficial. Custom transformations are JavaScript executed by JavaScriptCore.",
+      "codex_compatibility": null,
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Hands-on tested (owner-reported; not independently reproduced)",
+      "source_urls": [
+        "https://github.com/IvanMathy/Boop",
+        "https://github.com/IvanMathy/Boop/blob/main/README.md",
+        "https://github.com/IvanMathy/Boop/blob/main/LICENSE",
+        "https://github.com/IvanMathy/Boop/blob/main/Boop/Documentation/Readme.md",
+        "https://github.com/IvanMathy/Boop/blob/main/Boop/Documentation/CustomScripts.md",
+        "https://github.com/IvanMathy/Boop/releases",
+        "https://github.com/IvanMathy/Boop/commits/main",
+        "https://github.com/IvanMathy/Boop/commit/2c30ad5db8a23d0e7ce5624a19d898fc8cd72305",
+        "https://github.com/IvanMathy/Boop/blob/2c30ad5db8a23d0e7ce5624a19d898fc8cd72305/Boop/Boop/scripts/Upcase.js"
+      ],
+      "hands_on_tested": true,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-19",
+      "technical_notes": "The owner reported one successful text transformation using Boop's bundled Upcase script; see the review draft for the bounded input and output. The reviewer did not independently reproduce the result. No broader security, network, compatibility, or reliability conclusion is established.",
+      "industry_tag_status": "Suggested general-use sectors, not verified product-market fit",
+      "catalog_description": "A macOS text utility with bundled and custom scripts for transforming text."
+    },
+    {
+      "id": "fav-052",
+      "name": "Skills for Real Engineers",
+      "url": "https://github.com/mattpocock/skills",
+      "platform": "GitHub",
+      "publisher": "mattpocock",
+      "category": "AI agents & skills",
+      "resource_type": "Engineering agent skill collection",
+      "activities": [
+        "software development",
+        "requirements and specification",
+        "code review",
+        "testing and debugging"
+      ],
+      "industries": [
+        "Software development",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-052.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent Skills-compatible hosts. README documents a Codex plugin marketplace flow, a Claude Code plugin, skills.sh installations for editable copies, GitHub Copilot, Gemini CLI, and other harnesses. Some skills may direct the agent to read or write project files, invoke shell tools, or interact with configured issue trackers; requirements vary by skill.",
+      "codex_compatibility": "Current README documents `codex plugin marketplace add mattpocock/skills` and `codex plugin add mattpocock-skills@mattpocock`; the repository contains Codex metadata alongside skills. Documented integration only; not installed or tested. No MCP plugin is documented.",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/mattpocock/skills",
+        "https://github.com/mattpocock/skills/blob/main/README.md",
+        "https://github.com/mattpocock/skills/blob/main/LICENSE",
+        "https://github.com/mattpocock/skills/tree/main/skills",
+        "https://github.com/mattpocock/skills/releases",
+        "https://github.com/mattpocock/skills/commits/main",
+        "https://github.com/mattpocock/skills/blob/main/.claude-plugin/plugin.json"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "The README describes small, composable workflow instructions for requirements elicitation, domain language, implementation, TDD, debugging, architecture, and productivity; it distinguishes user-invoked from model-invoked skills. The current README lists 27 skills across Engineering and Productivity. Current pages document Codex plugin marketplace/add commands; an older release note said a native Codex plugin was deferred, so these claims are time-sensitive and the current docs were used. skills.sh places editable local copies that require manual updates; plugin installs are described as managed/auto-updating bundles. Skills are instructions, but some ask agents to modify files, run commands, create tickets or call tools; inspect each skill and grant least privilege. No MCP server/plugin is claimed. Repository-level scripts and a package manifest exist; per-skill runtime requirements vary and were not exhaustively inventoried. GitHub dynamic main documentation was inspected, but full SHA and immutable source correspondence were not confirmed. No skills/plugin were installed or invoked and no practical evaluation was performed.",
+      "industry_tag_status": "Suggested general-use sectors, not verified product-market fit",
+      "catalog_description": "A collection of reusable agent instructions for engineering and productivity workflows."
+    },
+    {
+      "id": "fav-053",
+      "name": "Diagram Design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "platform": "GitHub",
+      "publisher": "cathrynlavery",
+      "category": "AI agents & skills",
+      "resource_type": "Diagram-generation agent skill / plugin collection",
+      "activities": [
+        "diagramming",
+        "data visualization",
+        "technical communication"
+      ],
+      "industries": [
+        "Software development",
+        "Education",
+        "Media & entertainment"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary prepared for the public candidate on 2026-10-19 from the documentary review in reviews/drafts/fav-053.md (catalog review date: 2026-10-18). The previously stored externally sourced description is omitted from this public candidate because its republication provenance was not cleared. The cited draft records its sources and evidence limits. This summary does not imply a functional test, endorsement, or permission to reproduce third-party materials.",
+      "execution_environment": "Agent Skills-compatible runtimes; README documents cross-agent skills CLI installs, plus native plugin surfaces for Codex, Claude Code and Factory Droid and Pi package support. Generates HTML with inline SVG; optional SVG export uses a packaged Python helper, PNG export requires Python Playwright and Chromium. Default font loading may make a network request to Google Fonts.",
+      "codex_compatibility": "Codex is explicitly listed by the project and a `.codex-plugin` manifest is present; generic Agent Skills installation is also documented. Plugin compatibility is documentation-based and not tested.",
+      "license": "MIT (repository-level declaration; third-party components, models, assets, and services may have separate terms)",
+      "verification_level": "Documentation inspected",
+      "source_urls": [
+        "https://github.com/cathrynlavery/diagram-design",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/skills/diagram-design/SKILL.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/.codex-plugin/plugin.json",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/skills/diagram-design/references/export.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/skills/diagram-design/references/style-guide.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/LICENSE",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/SECURITY.md",
+        "https://github.com/cathrynlavery/diagram-design/blob/main/THIRD_PARTY_LICENSES.md",
+        "https://github.com/cathrynlavery/diagram-design/releases",
+        "https://github.com/cathrynlavery/diagram-design/commits/main"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-18",
+      "technical_notes": "The skill routes requests to references/templates and produces HTML documents containing SVG. The inspected current README's opening says 45 types, its gallery sentence says type numbers 01–44, and GitHub About metadata says 44; the SKILL.md says 45 and contains a 45-entry guide. The discrepancy is recorded without changing the submitted description. README documents import/redraw of draw.io and Mermaid; static HTML can use remote Google Fonts by default, with system-font option to avoid that request. SVG export can be performed with the supplied Python helper; PNG export uses Playwright and installed Chromium. Templates include SVG accessible title/description slots, but output accessibility and cross-browser fidelity are not tested or guaranteed. HTML/SVG and imported content should be reviewed before opening or sharing; the documented self-check is not a security certification. MIT is declared, with separate third-party notices for bundled components/assets. Version 2.6.110 appears in the latest manifest bump commit page. Full SHA not confirmed; commit page link is dynamic and only shows an abbreviated hash. No installation, generation, rendering, export, import, or browser comparison was performed.",
+      "industry_tag_status": "Suggested general-use sectors, not verified product-market fit",
+      "catalog_description": "An agent skill and plugin bundle for creating technical and data diagrams."
+    }
+  ]
+}

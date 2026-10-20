@@ -1,0 +1,31 @@
+name: Curation smoke test
+
+on:
+  pull_request:
+    paths:
+      - 'AGENTS.md'
+      - 'docs/CODEX_WORKFLOW.md'
+      - 'docs/CURATION_CHECKLIST.md'
+      - '.github/workflows/curation-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  curation-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate source catalog
+        run: npm run check
+      - name: Verify agent workflow documentation
+        run: |
+          test -s AGENTS.md
+          test -s docs/CODEX_WORKFLOW.md
+          test -s docs/CURATION_CHECKLIST.md
+          test -s reviews/REVIEW_TEMPLATE.md

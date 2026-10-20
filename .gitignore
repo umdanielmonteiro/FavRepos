@@ -1,0 +1,12 @@
+# Local exports and sensitive files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+**/node_modules/
+.DS_Store
+*.log
+tmp/
+private/
+internal/

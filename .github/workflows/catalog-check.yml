@@ -1,0 +1,28 @@
+name: Catalog checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run catalog validator tests
+        run: npm run test
+      - name: Validate catalog and CSV snapshot
+        run: npm run check
+      - name: Verify generated catalog index
+        run: npm run catalog:index:check

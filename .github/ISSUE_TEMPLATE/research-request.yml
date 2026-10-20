@@ -1,0 +1,22 @@
+name: Research request
+description: Request a source-backed technical review of an existing or proposed resource
+title: "[Research] "
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource URL or FavRepos ID
+      placeholder: fav-001 or https://github.com/owner/project
+    validations:
+      required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions to investigate
+      placeholder: Installation, license, Codex/MCP integration, deployment requirements...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant activities or industries (optional)
