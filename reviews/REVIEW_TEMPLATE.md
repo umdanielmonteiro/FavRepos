@@ -1,9 +1,9 @@
 # Resource review: [name]
 
-**Resource ID:** `fav-000`  
-**Reviewed on:** YYYY-MM-DD  
-**Reviewer:**  
-**Source revision / version:**  
+**Resource ID:** `fav-000`<br>
+**Reviewed on:** YYYY-MM-DD<br>
+**Reviewer:**<br>
+**Source revision / version:**<br>
 **Review stage:** preliminary | documentation | source | hands-on
 
 ## Why it matters
@@ -29,13 +29,13 @@ Discuss credential handling, data flows, use restrictions, terms, security assum
 ## Editorial verdict
 not-assessed | research | pilot | recommended | caution | avoid | retired
 
-**Rationale:** 
+**Rationale:**
 
-**Best suited to:** 
+**Best suited to:**
 
-**Not suited to:** 
+**Not suited to:**
 
-**Alternatives / comparisons:** 
+**Alternatives / comparisons:**
 
 ## Sources
 - [Primary repository or model page](https://example.com)

@@ -2,7 +2,7 @@
 
 FavRepos is an independent, evidence-aware catalog of technology resources across GitHub, Hugging Face, official documentation sites, and other platforms. Entries distinguish what a resource is, where it is published, where it runs, and what evidence has been reviewed.
 
-> **Release-candidate status:** this snapshot is not yet published. The owner has confirmed authority over original FavRepos material and approved its intended code/content license boundary. Publication still depends on source-specific review of third-party material and configuring the destination repository. Inclusion is not an endorsement, recommendation, security certification, or proof of compatibility.
+> The owner designates MIT for original FavRepos code, scripts, and tests, and CC BY 4.0 for original editorial prose and protectable editorial metadata, subject to third-party rights and applicable limits on copyright protection. Inclusion is not an endorsement, recommendation, security certification, or proof of compatibility.
 
 ## Explore the catalog
 
@@ -40,7 +40,7 @@ Catalog entries do not certify that a resource is safe. Before operational use, 
 
 ## Project status
 
-The catalog contains 53 resources with documentary review drafts and FavRepos-authored summaries. Each entry records its evidence scope; publisher claims and untested capabilities are not independent findings. The release candidate omits publisher descriptions whose republication provenance was not cleared. The owner has confirmed authority over original FavRepos material, including Codex-assisted work, subject to third-party rights and applicable limits on protection for AI-generated material. Publication remains pending source-specific third-party rights review and verification of destination controls in the [project roadmap](docs/ROADMAP.md).
+The catalog contains 53 resources with documentary review drafts and FavRepos-authored summaries. Each entry records its evidence scope; source review is not exhaustive, and publisher claims and untested capabilities are not independent findings. The catalog uses editorial summaries where republication provenance for publisher wording was not established. The owner's license designations apply only to original FavRepos material within the stated scope; third-party material remains subject to its holders' rights and terms. Repository protections and source-review work are tracked separately in the [project roadmap](docs/ROADMAP.md).
 
 ## Licensing
 

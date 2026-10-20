@@ -8,4 +8,5 @@
 - [x] Generate a CSV export from the single JSON source
 - [ ] Add an XLSX export from the single JSON source
 - [ ] Strengthen schema/catalog validation (validator checks and automated regression tests added; broader refresh automation remains open)
-- [ ] Complete source-specific review of substantial third-party text and incorporated materials; verify destination GitHub protections before any public launch
+- [ ] Continue source-specific review of third-party text and incorporated materials; record unavailable or unpinned sources and do not treat citations as permission
+- [ ] Configure and verify GitHub branch protections and required checks for the hosted repository; keep configuration review separate from ongoing source review
