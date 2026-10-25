@@ -17,7 +17,7 @@ FavRepos is an independent, evidence-aware catalog of technology resources acros
 - [Documentary comparisons](docs/comparisons/README.md): evidence-bounded comparisons and their limits.
 - [Contributing](CONTRIBUTING.md): how to suggest or review entries.
 
-The current catalog contains **53 resources across 13 categories**. The initial inventory count of 49 is a historical baseline, not the current total.
+The current catalog contains **74 resources across 19 categories**. The initial inventory count of 49 is a historical baseline, not the current total.
 
 ## How to read evidence
 
@@ -40,7 +40,7 @@ Catalog entries do not certify that a resource is safe. Before operational use, 
 
 ## Project status
 
-The catalog contains 53 resources with documentary review drafts and FavRepos-authored summaries. Each entry records its evidence scope; source review is not exhaustive, and publisher claims and untested capabilities are not independent findings. The catalog uses editorial summaries where republication provenance for publisher wording was not established. The owner's license designations apply only to original FavRepos material within the stated scope; third-party material remains subject to its holders' rights and terms. Repository protections and source-review work are tracked separately in the [project roadmap](docs/ROADMAP.md).
+The catalog contains 74 resources with documentary review drafts and FavRepos-authored summaries. Each entry records its evidence scope; source review is not exhaustive, and publisher claims and untested capabilities are not independent findings. The catalog uses editorial summaries where republication provenance for publisher wording was not established. The owner's license designations apply only to original FavRepos material within the stated scope; third-party material remains subject to its holders' rights and terms. Repository protections and source-review work are tracked separately in the [project roadmap](docs/ROADMAP.md).
 
 ## Licensing
 

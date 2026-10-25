@@ -111,8 +111,9 @@ test('catalog index generation is deterministic and preserves every ID exactly o
   const first = indexFor(fresh(), hasDraft);
   assert.equal(indexFor(fresh(), hasDraft), first);
   const ids = [...first.matchAll(/\*\*(fav-\d{3,})\*\*/g)].map(match => match[1]);
-  assert.equal(ids.length, 53);
-  assert.equal(new Set(ids).size, 53);
+  const expectedCount = source.resources.length;
+  assert.equal(ids.length, expectedCount);
+  assert.equal(new Set(ids).size, expectedCount);
   assert.deepEqual([...ids].sort(), fresh().resources.map(resource => resource.id).sort());
   assert.deepEqual(checkIndex(JSON.stringify(fresh()), first, hasDraft).failures, []);
 });

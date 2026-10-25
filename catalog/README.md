@@ -10,8 +10,12 @@ O nível resume a evidência registrada: **Preliminary** indica classificação 
 
 - **fav-007** — [Agency Agents](https://github.com/msitarzewski/agency-agents) · Agent instruction collection / converter · Source inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-007.md)
 - **fav-023** — [Agent Skills](https://github.com/addyosmani/agent-skills) · Skill collection · README and selected documentation verified at candidate revision aeac41d4d005999432bb7312f7ff06383a91d59d; collection not exhaustively audited; not hands-on tested · [Review/draft](../reviews/drafts/fav-023.md)
+- **fav-058** — [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills) · Coding-agent guideline file · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-058.md)
+- **fav-072** — [Caveman](https://github.com/JuliusBrussee/caveman) · Agent style and context-compression tools · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-072.md)
+- **fav-061** — [CodeGraph](https://github.com/colbymchenry/codegraph) · Code indexing CLI and agent integration · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-061.md)
 - **fav-053** — [Diagram Design](https://github.com/cathrynlavery/diagram-design) · Diagram-generation agent skill / plugin collection · Documentation inspected · [Review/draft](../reviews/drafts/fav-053.md)
 - **fav-002** — [ECC](https://github.com/affaan-m/ECC) · Agent harness / skill collection · Source inspected · [Review/draft](../reviews/drafts/fav-002.md)
+- **fav-069** — [find-skills](https://www.skills.sh/vercel-labs/skills/find-skills) · Agent skill for finding other skills · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-069.md)
 - **fav-021** — [G0DM0D3](https://github.com/elder-plinius/G0DM0D3) · LLM research web application / optional API · Candidate revision f6301765fb90eb7b336bdf365319cd2fe44b1187 README verified; other cited files remain on moving main; not hands-on tested · [Review/draft](../reviews/drafts/fav-021.md)
 - **fav-019** — [OpenClaw](https://github.com/openclaw/openclaw) · Agent application · Candidate SHA e013cf2575b345bf729508d0364daff18888b4d6 could not be associated with files; moving-main documentation only; not hands-on tested · [Review/draft](../reviews/drafts/fav-019.md)
 - **fav-006** — [Ponytail](https://github.com/DietrichGebert/ponytail) · Agent plugin / instructions · Source inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-006.md)
@@ -21,6 +25,13 @@ O nível resume a evidência registrada: **Preliminary** indica classificação 
 ## AI infrastructure
 
 - **fav-048** — [FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi) · LLM API gateway · Source inspected · [Review/draft](../reviews/drafts/fav-048.md)
+
+## Analytics & feedback
+
+- **fav-065** — [Apache Superset](https://github.com/apache/superset) · Business-intelligence and data-visualization platform · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-065.md)
+- **fav-063** — [Formbricks](https://github.com/formbricks/formbricks) · Survey and experience-management platform · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-063.md)
+- **fav-071** — [OpenReplay](https://github.com/openreplay/openreplay) · Session replay and product analytics platform · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-071.md)
+- **fav-070** — [Umami](https://github.com/umami-software/umami) · Privacy-oriented website and product analytics web app · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-070.md)
 
 ## Audio & speech
 
@@ -44,6 +55,12 @@ O nível resume a evidência registrada: **Preliminary** indica classificação 
 - **fav-047** — [LongCat Video Avatar 1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) · AI model weights · Documentation inspected · [Review/draft](../reviews/drafts/fav-047.md)
 - **fav-011** — [MuseTalk](https://github.com/TMElyralab/MuseTalk) · Model / framework · Documentation inspected · [Review/draft](../reviews/drafts/fav-011.md)
 
+## Business operations
+
+- **fav-059** — [DocuSeal](https://github.com/docusealco/docuseal) · Document filling and electronic-signature platform · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-059.md)
+- **fav-060** — [Kimai](https://github.com/kimai/kimai) · Time-tracking and reporting web application · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-060.md)
+- **fav-066** — [Plane](https://github.com/makeplane/plane) · Project and issue management platform · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-066.md)
+
 ## CRM & RevOps
 
 - **fav-033** — [Awesome Revenue Operations Platform](https://github.com/ishandutta2007/Awesome-Revenue-Operations-Platform) · Curated directory · README, repository file list and GitHub license indicator inspected on 2026-10-18; current-main full SHA not verified; no hands-on testing · [Review/draft](../reviews/drafts/fav-033.md)
@@ -54,17 +71,38 @@ O nível resume a evidência registrada: **Preliminary** indica classificação 
 - **fav-035** — [GTM Skills](https://github.com/LeadMagic/gtm-skills) · Skill collection · Documentation inspected · [Review/draft](../reviews/drafts/fav-035.md)
 - **fav-031** — [RevHackers Unified](https://github.com/revhackers/revhackers-unified) · Web application · README.md and package.json inspected at commit 690a5b38457a5aa3c1f3b6c2fb189b5954ef79d1 on 2026-10-18; Git tree confirms exact file blobs and no license file at repository root at this revision; no code executed or hands-on testing · [Review/draft](../reviews/drafts/fav-031.md)
 - **fav-032** — [RevOps.io (Organization)](https://github.com/revops-io) · GitHub organization · Organization profile and six public repositories inspected on 2026-10-18; no organization-wide SHA applies; individual repository revisions not verified; no hands-on testing · [Review/draft](../reviews/drafts/fav-032.md)
+- **fav-067** — [Twenty](https://github.com/twentyhq/twenty) · Customizable customer-relationship management web app · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-067.md)
+
+## Customer support
+
+- **fav-068** — [Chatwoot](https://github.com/chatwoot/chatwoot) · Omnichannel customer support application · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-068.md)
+
+## Design & UI
+
+- **fav-074** — [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) · Figma design-data MCP server · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-074.md)
+- **fav-073** — [FigmaToCode](https://github.com/bernaferrari/FigmaToCode) · Figma design-to-code plugin · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-073.md)
+- **fav-056** — [Logo Design Skill](https://github.com/kaankiziltug/logo-design-skill) · Agent skill for logo and SVG design · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-056.md)
 
 ## Generative media
 
 - **fav-014** — [ComfyUI](https://github.com/Comfy-Org/ComfyUI) · Application / backend · Documentation inspected; candidate tree unverified; not hands-on tested · [Review/draft](../reviews/drafts/fav-014.md)
 - **fav-029** — [FacePoke](https://github.com/jbilcke-hf/FacePoke) · Application / demo · README, repository file list, deployment instructions and code paths inspected on 2026-10-18; repository archived 2025-10-31; full current-main SHA not verified; no hands-on testing · [Review/draft](../reviews/drafts/fav-029.md)
+- **fav-055** — [MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3) · Video-generation model documentation and related skills · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-055.md)
 - **fav-005** — [Open Generative AI](https://github.com/Anil-matcha/Open-Generative-AI) · Self-hosted application · Source inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-005.md)
+
+## IT operations
+
+- **fav-057** — [Snipe-IT](https://github.com/grokability/snipe-it) · IT asset and license management web application · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-057.md)
+- **fav-062** — [Uptime Kuma](https://github.com/louislam/uptime-kuma) · Self-hosted uptime monitoring web application · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-062.md)
 
 ## Knowledge & prompts
 
 - **fav-050** — [Humanizer](https://github.com/blader/humanizer) · Writing/editing agent skill · Documentation inspected · [Review/draft](../reviews/drafts/fav-050.md)
 - **fav-016** — [Prompts.chat](https://github.com/f/prompts.chat) · Prompt collection / application · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-016.md)
+
+## Legal & regulatory
+
+- **fav-054** — [Leis](https://github.com/ctresb/leis) · Brazilian legislation repository · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-054.md)
 
 ## Meetings & productivity
 
@@ -91,6 +129,7 @@ O nível resume a evidência registrada: **Preliminary** indica classificação 
 - **fav-040** — [HyperFrames Community Skills](https://github.com/heygen-com/hyperframes-community-skills) · Skill collection · Source inspected · [Review/draft](../reviews/drafts/fav-040.md)
 - **fav-041** — [HyperFrames Launches](https://github.com/heygen-com/hyperframes-launches) · Templates / examples · Source inspected · [Review/draft](../reviews/drafts/fav-041.md)
 - **fav-042** — [HyperFrames Modal Template](https://github.com/heygen-com/hyperframes-modal-template) · Deployment template · Source inspected · [Review/draft](../reviews/drafts/fav-042.md)
+- **fav-064** — [Motionmaxxing](https://github.com/Tejashmakwana/motionmaxxing) · Agent skill for motion graphics · Documentation inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-064.md)
 - **fav-022** — [OpenCut](https://github.com/OpenCut-app/OpenCut) · Video editor · README, desktop README, Cargo.toml and LICENSE verified at candidate revision e668010778568641babef2cc40be4703ae6916d6; other manifests not pinned; not hands-on tested · [Review/draft](../reviews/drafts/fav-022.md)
 - **fav-024** — [OpenMontage](https://github.com/calesthio/OpenMontage) · Agent-orchestrated video production toolkit · README, architecture, agent guide, providers and setup inspected on 2026-10-18; commit 08e2151fa02de28a5d6a312b3d575692bf147ad7 and parent cd9f3c1f03368be87b140af494914b8ee4e3c7a4 confirmed in repository history; current file-level revision not fully pinned; no hands-on testing · [Review/draft](../reviews/drafts/fav-024.md)
 - **fav-008** — [ReelMimic](https://github.com/edenfunf/reelmimic) · Local video-production application / agent workflow · Source inspected; not hands-on tested · [Review/draft](../reviews/drafts/fav-008.md)

@@ -4,7 +4,8 @@ This project follows a lightweight, human-reviewed changelog.
 
 ## [Unreleased]
 ### Added
-- Initial inventory of 49 resources from GitHub, Hugging Face, and official websites. The catalog has since grown to 53 resources; these are distinct milestones, not conflicting counts.
+- Added 21 new resources (`fav-054` to `fav-074`) on 2026-10-25, with documentary drafts and original summaries; Strix (`fav-027`) and LongCat Video Avatar 1.5 (`fav-047`) were already present and were not duplicated.
+- Initial inventory of 49 resources from GitHub, Hugging Face, and official websites. The catalog grew to 53 before the 2026-10-25 expansion to 74; these are separate milestones.
 - Cross-platform taxonomy, review template, methodology, editorial guidelines, and contribution guidance.
 - Automated catalog validation and CSV synchronization.
 - Agent instructions, security policy, issue and pull request templates.

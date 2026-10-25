@@ -1,7 +1,7 @@
 # Roadmap
 
 - [x] Independent README and review method
-- [x] Cross-platform, neutral initial inventory (49 resources; historical baseline; current catalog: 53 resources)
+- [x] Cross-platform, neutral initial inventory (49 resources; historical baseline; current catalog: 74 resources)
 - [x] Use concise FavRepos-authored catalog summaries; omit publisher wording when republication provenance is not cleared
 - [ ] Verify each item using official documentation and source revisions
 - [ ] Add controlled per-resource hands-on reviews (one owner-reported Boop result dated 2026-10-19 is documented; independent reproduction and broader evaluation remain open)
