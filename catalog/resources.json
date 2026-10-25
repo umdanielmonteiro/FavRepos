@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-25",
   "resources": [
     {
       "id": "fav-001",
@@ -2030,6 +2030,718 @@
       "technical_notes": "The skill routes requests to references/templates and produces HTML documents containing SVG. The inspected current README's opening says 45 types, its gallery sentence says type numbers 01–44, and GitHub About metadata says 44; the SKILL.md says 45 and contains a 45-entry guide. The discrepancy is recorded without changing the submitted description. README documents import/redraw of draw.io and Mermaid; static HTML can use remote Google Fonts by default, with system-font option to avoid that request. SVG export can be performed with the supplied Python helper; PNG export uses Playwright and installed Chromium. Templates include SVG accessible title/description slots, but output accessibility and cross-browser fidelity are not tested or guaranteed. HTML/SVG and imported content should be reviewed before opening or sharing; the documented self-check is not a security certification. MIT is declared, with separate third-party notices for bundled components/assets. Version 2.6.110 appears in the latest manifest bump commit page. Full SHA not confirmed; commit page link is dynamic and only shows an abbreviated hash. No installation, generation, rendering, export, import, or browser comparison was performed.",
       "industry_tag_status": "Suggested general-use sectors, not verified product-market fit",
       "catalog_description": "An agent skill and plugin bundle for creating technical and data diagrams."
+    },
+    {
+      "id": "fav-054",
+      "name": "Leis",
+      "url": "https://github.com/ctresb/leis",
+      "platform": "GitHub",
+      "publisher": "ctresb",
+      "category": "Legal & regulatory",
+      "resource_type": "Brazilian legislation repository",
+      "activities": [
+        "legal research",
+        "legislation lookup"
+      ],
+      "industries": [
+        "Legal services",
+        "Public administration"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Markdown files; updating conversion scripts use external tools.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/ctresb/leis",
+        "https://github.com/ctresb/leis/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Consult official gazettes for definitive texts; OCR and corpus coverage can be incomplete.",
+      "catalog_description": "Markdown collection of Brazilian legal texts with links to official sources; coverage and transcription accuracy need checking."
+    },
+    {
+      "id": "fav-055",
+      "name": "MiniMax-H3",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "platform": "GitHub",
+      "publisher": "MiniMax-AI",
+      "category": "Generative media",
+      "resource_type": "Video-generation model documentation and related skills",
+      "activities": [
+        "video generation",
+        "creative workflows"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Hosted model/API and web app are documented; local compute and model terms require separate review.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/MiniMax-AI/MiniMax-H3",
+        "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "API costs, model distribution, hardware and content rights are not verified.",
+      "catalog_description": "Information about generating video from text and images, with accompanying workflow-specific agent skills."
+    },
+    {
+      "id": "fav-056",
+      "name": "Logo Design Skill",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "platform": "GitHub",
+      "publisher": "kaankiziltug",
+      "category": "Design & UI",
+      "resource_type": "Agent skill for logo and SVG design",
+      "activities": [
+        "identity design",
+        "SVG drafting"
+      ],
+      "industries": [
+        "Design",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Agent-skill host and optional Python utilities; no tools executed.",
+      "codex_compatibility": "Codex named as an agent-skill host by upstream; not tested",
+      "license": "MIT (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/kaankiziltug/logo-design-skill",
+        "https://github.com/kaankiziltug/logo-design-skill/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Do not copy reference-library logos; evaluate trademarks and commercial reuse.",
+      "catalog_description": "Instructions and optional utilities for developing and reviewing identity concepts and SVG logos."
+    },
+    {
+      "id": "fav-057",
+      "name": "Snipe-IT",
+      "url": "https://github.com/grokability/snipe-it",
+      "platform": "GitHub",
+      "publisher": "grokability",
+      "category": "IT operations",
+      "resource_type": "IT asset and license management web application",
+      "activities": [
+        "asset tracking",
+        "license management"
+      ],
+      "industries": [
+        "IT operations",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Self-hosted server or Docker; deployment details require checking.",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/grokability/snipe-it",
+        "https://github.com/grokability/snipe-it/blob/master/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Protect employee and equipment inventories with access controls and backups.",
+      "catalog_description": "Web software for assigning and tracking devices, users and software licenses."
+    },
+    {
+      "id": "fav-058",
+      "name": "Andrej Karpathy Skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "platform": "GitHub",
+      "publisher": "multica-ai",
+      "category": "AI agents & skills",
+      "resource_type": "Coding-agent guideline file",
+      "activities": [
+        "coding-agent guidelines",
+        "code review"
+      ],
+      "industries": [
+        "Software development",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Markdown instructions principally for Claude Code; no other host tested.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/multica-ai/andrej-karpathy-skills",
+        "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Not published by Andrej Karpathy; principles do not imply measured code-quality gains.",
+      "catalog_description": "A third-party CLAUDE.md guideline based on commentary about coding-agent assumptions and focused changes."
+    },
+    {
+      "id": "fav-059",
+      "name": "DocuSeal",
+      "url": "https://github.com/docusealco/docuseal",
+      "platform": "GitHub",
+      "publisher": "docusealco",
+      "category": "Business operations",
+      "resource_type": "Document filling and electronic-signature platform",
+      "activities": [
+        "electronic signing",
+        "document workflows"
+      ],
+      "industries": [
+        "Professional services",
+        "Business administration"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Cloud or self-hosted Docker; documented SQL storage alternatives.",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/docusealco/docuseal",
+        "https://github.com/docusealco/docuseal/blob/master/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Legal sufficiency, signatory identity, privacy and paid-feature terms depend on the use case.",
+      "catalog_description": "Web software for preparing fillable documents and requesting electronic signatures."
+    },
+    {
+      "id": "fav-060",
+      "name": "Kimai",
+      "url": "https://github.com/kimai/kimai",
+      "platform": "GitHub",
+      "publisher": "kimai",
+      "category": "Business operations",
+      "resource_type": "Time-tracking and reporting web application",
+      "activities": [
+        "time tracking",
+        "billing support"
+      ],
+      "industries": [
+        "Professional services",
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Self-hosted web stack or cloud; version-specific dependencies not tested.",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/kimai/kimai",
+        "https://github.com/kimai/kimai/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Timesheet data requires workforce privacy and role-based access safeguards.",
+      "catalog_description": "Project and user timesheets with reporting and billing-related functionality."
+    },
+    {
+      "id": "fav-061",
+      "name": "CodeGraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "platform": "GitHub",
+      "publisher": "colbymchenry",
+      "category": "AI agents & skills",
+      "resource_type": "Code indexing CLI and agent integration",
+      "activities": [
+        "code navigation",
+        "agent context"
+      ],
+      "industries": [
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "CLI and several agent integrations documented; installers not run.",
+      "codex_compatibility": "Codex integration claimed upstream; not configured",
+      "license": "MIT (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/colbymchenry/codegraph",
+        "https://github.com/colbymchenry/codegraph/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Repository access, local indexing and claimed context efficiency were not evaluated.",
+      "catalog_description": "Builds code-relationship information for navigation and retrieval by coding agents."
+    },
+    {
+      "id": "fav-062",
+      "name": "Uptime Kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "platform": "GitHub",
+      "publisher": "louislam",
+      "category": "IT operations",
+      "resource_type": "Self-hosted uptime monitoring web application",
+      "activities": [
+        "uptime monitoring",
+        "alerts"
+      ],
+      "industries": [
+        "IT operations",
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Docker or Node.js server as documented.",
+      "codex_compatibility": null,
+      "license": "MIT (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/louislam/uptime-kuma",
+        "https://github.com/louislam/uptime-kuma/blob/master/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Only monitor authorized services; status pages and alerts can disclose infrastructure.",
+      "catalog_description": "Checks the availability of services and provides alerting and status interfaces."
+    },
+    {
+      "id": "fav-063",
+      "name": "Formbricks",
+      "url": "https://github.com/formbricks/formbricks",
+      "platform": "GitHub",
+      "publisher": "formbricks",
+      "category": "Analytics & feedback",
+      "resource_type": "Survey and experience-management platform",
+      "activities": [
+        "surveys",
+        "customer feedback"
+      ],
+      "industries": [
+        "Product management",
+        "Customer research"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Docker/self-hosted web stack or vendor cloud.",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 (upstream README statement) (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/formbricks/formbricks",
+        "https://github.com/formbricks/formbricks/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Participant privacy, consent, retention and commercial feature scope need review.",
+      "catalog_description": "Tools for surveys, customer feedback and in-product research via hosted or self-hosted deployment."
+    },
+    {
+      "id": "fav-064",
+      "name": "Motionmaxxing",
+      "url": "https://github.com/Tejashmakwana/motionmaxxing",
+      "platform": "GitHub",
+      "publisher": "Tejashmakwana",
+      "category": "Video production",
+      "resource_type": "Agent skill for motion graphics",
+      "activities": [
+        "motion graphics",
+        "animated video"
+      ],
+      "industries": [
+        "Media & entertainment",
+        "Marketing & advertising"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "README lists Node.js 22+, Python 3, FFmpeg and Chrome; optional providers.",
+      "codex_compatibility": null,
+      "license": "Apache-2.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/Tejashmakwana/motionmaxxing",
+        "https://github.com/Tejashmakwana/motionmaxxing/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Scripts, external services and advertised output quality have not been independently assessed.",
+      "catalog_description": "Motion-design guidance and scripts for producing and checking animated visual material."
+    },
+    {
+      "id": "fav-065",
+      "name": "Apache Superset",
+      "url": "https://github.com/apache/superset",
+      "platform": "GitHub",
+      "publisher": "apache",
+      "category": "Analytics & feedback",
+      "resource_type": "Business-intelligence and data-visualization platform",
+      "activities": [
+        "business intelligence",
+        "dashboards"
+      ],
+      "industries": [
+        "Analytics",
+        "Business administration"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Server application and external data connectors; deployment requirements vary.",
+      "codex_compatibility": null,
+      "license": "Apache-2.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/apache/superset",
+        "https://github.com/apache/superset/blob/master/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Data-source credentials and permissions require careful administration.",
+      "catalog_description": "A web platform for building dashboards, queries and charts from connected data."
+    },
+    {
+      "id": "fav-066",
+      "name": "Plane",
+      "url": "https://github.com/makeplane/plane",
+      "platform": "GitHub",
+      "publisher": "makeplane",
+      "category": "Business operations",
+      "resource_type": "Project and issue management platform",
+      "activities": [
+        "project management",
+        "issue tracking"
+      ],
+      "industries": [
+        "Software development",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Cloud, Docker and Kubernetes paths described.",
+      "codex_compatibility": null,
+      "license": "AGPL-3.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/makeplane/plane",
+        "https://github.com/makeplane/plane/blob/preview/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Instance permissions, client data and edition scope not validated.",
+      "catalog_description": "Organizes projects, tasks, cycles and planning in hosted or self-hosted workspaces."
+    },
+    {
+      "id": "fav-067",
+      "name": "Twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "platform": "GitHub",
+      "publisher": "twentyhq",
+      "category": "CRM & RevOps",
+      "resource_type": "Customizable customer-relationship management web app",
+      "activities": [
+        "CRM",
+        "sales pipeline"
+      ],
+      "industries": [
+        "Sales & marketing",
+        "Professional services"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Cloud or Docker Compose self-hosting; services include PostgreSQL and Redis.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/twentyhq/twenty",
+        "https://github.com/twentyhq/twenty/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Protect customer data, API keys and integrations; exact license/edition scope unresolved.",
+      "catalog_description": "An extensible CRM with contacts, opportunities, data models and workflows."
+    },
+    {
+      "id": "fav-068",
+      "name": "Chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "platform": "GitHub",
+      "publisher": "chatwoot",
+      "category": "Customer support",
+      "resource_type": "Omnichannel customer support application",
+      "activities": [
+        "customer support",
+        "messaging operations"
+      ],
+      "industries": [
+        "Customer service",
+        "E-commerce"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Hosted and self-hosted options; channel integrations have separate setup.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/chatwoot/chatwoot",
+        "https://github.com/chatwoot/chatwoot/blob/develop/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Message histories, credentials, consent, and retention must be controlled.",
+      "catalog_description": "A shared inbox and support workflow product for handling conversations across channels."
+    },
+    {
+      "id": "fav-069",
+      "name": "find-skills",
+      "url": "https://www.skills.sh/vercel-labs/skills/find-skills",
+      "platform": "Skills.sh / GitHub",
+      "publisher": "vercel-labs",
+      "category": "AI agents & skills",
+      "resource_type": "Agent skill for finding other skills",
+      "activities": [
+        "skill discovery",
+        "agent workflows"
+      ],
+      "industries": [
+        "Software development",
+        "Education"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Skills-compatible host; optional Skills CLI not installed.",
+      "codex_compatibility": "Codex listed by the parent CLI documentation; this skill not installed",
+      "license": "MIT (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/vercel-labs/skills",
+        "https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Skill suggestions are not safety audits; third-party installs need separate review.",
+      "catalog_description": "Instructions for discovering and checking third-party skills using a skills directory and CLI."
+    },
+    {
+      "id": "fav-070",
+      "name": "Umami",
+      "url": "https://github.com/umami-software/umami",
+      "platform": "GitHub",
+      "publisher": "umami-software",
+      "category": "Analytics & feedback",
+      "resource_type": "Privacy-oriented website and product analytics web app",
+      "activities": [
+        "website analytics",
+        "traffic analysis"
+      ],
+      "industries": [
+        "Marketing & advertising",
+        "Product management"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "README references Node.js, PostgreSQL and Docker.",
+      "codex_compatibility": null,
+      "license": "MIT (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/umami-software/umami",
+        "https://github.com/umami-software/umami/blob/master/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Privacy and consent depend on tracker settings and deployment practices.",
+      "catalog_description": "Website analytics and reporting software with cloud and self-hosted options."
+    },
+    {
+      "id": "fav-071",
+      "name": "OpenReplay",
+      "url": "https://github.com/openreplay/openreplay",
+      "platform": "GitHub",
+      "publisher": "openreplay",
+      "category": "Analytics & feedback",
+      "resource_type": "Session replay and product analytics platform",
+      "activities": [
+        "session replay",
+        "UX troubleshooting"
+      ],
+      "industries": [
+        "Software development",
+        "Product management"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Self-hosted infrastructure or managed offerings; not deployed.",
+      "codex_compatibility": null,
+      "license": null,
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/openreplay/openreplay",
+        "https://github.com/openreplay/openreplay/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Recordings may contain personal or sensitive data; masking, access and retention need controls.",
+      "catalog_description": "Session replays, issue diagnosis and co-browsing with self-hosted deployment options."
+    },
+    {
+      "id": "fav-072",
+      "name": "Caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "platform": "GitHub",
+      "publisher": "JuliusBrussee",
+      "category": "AI agents & skills",
+      "resource_type": "Agent style and context-compression tools",
+      "activities": [
+        "agent communication",
+        "context compression"
+      ],
+      "industries": [
+        "Software development"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Node.js agent integrations; no proxy or benchmark run.",
+      "codex_compatibility": null,
+      "license": "Apache-2.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/JuliusBrussee/caveman",
+        "https://github.com/JuliusBrussee/caveman/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Publisher token-saving statistics are unverified and account access must be inspected.",
+      "catalog_description": "Instructions and tools focused on concise agent output and compact context handling."
+    },
+    {
+      "id": "fav-073",
+      "name": "FigmaToCode",
+      "url": "https://github.com/bernaferrari/FigmaToCode",
+      "platform": "GitHub",
+      "publisher": "bernaferrari",
+      "category": "Design & UI",
+      "resource_type": "Figma design-to-code plugin",
+      "activities": [
+        "design-to-code",
+        "UI prototyping"
+      ],
+      "industries": [
+        "Web development",
+        "Design"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "Runs inside Figma; supports multiple web and app output targets.",
+      "codex_compatibility": null,
+      "license": "GPL-3.0 (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/bernaferrari/FigmaToCode",
+        "https://github.com/bernaferrari/FigmaToCode/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Generated UI needs implementation review; plugin data handling is not independently verified.",
+      "catalog_description": "A Figma plugin producing editable UI markup and framework-specific starting code."
+    },
+    {
+      "id": "fav-074",
+      "name": "Figma Context MCP",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "platform": "GitHub",
+      "publisher": "GLips",
+      "category": "Design & UI",
+      "resource_type": "Figma design-data MCP server",
+      "activities": [
+        "Figma integration",
+        "agent UI implementation"
+      ],
+      "industries": [
+        "Web development",
+        "Design"
+      ],
+      "upstream_description": null,
+      "description_status": "FavRepos-authored summary based on the submitted scope and first-party README/skill documentation inspected on 2026-10-25; no upstream prose republished, no hands-on test, no immutable revision pinning.",
+      "execution_environment": "MCP-compatible client and Figma API token required.",
+      "codex_compatibility": null,
+      "license": "MIT (repository indication only; third-party components, models and editions may have separate terms)",
+      "verification_level": "Documentation inspected; not hands-on tested",
+      "source_urls": [
+        "https://github.com/GLips/Figma-Context-MCP",
+        "https://github.com/GLips/Figma-Context-MCP/blob/main/README.md"
+      ],
+      "hands_on_tested": false,
+      "editorial_verdict": "Not assessed",
+      "personal_impressions": null,
+      "reviewed_at": "2026-10-25",
+      "industry_tag_status": "Suggested general-purpose sectors, not verified fit",
+      "technical_notes": "Treat design data and Figma tokens as sensitive; audit tool scopes and sharing.",
+      "catalog_description": "An MCP server that gives coding agents structured information from selected Figma designs."
     }
   ]
 }
